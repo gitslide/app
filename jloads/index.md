@@ -1,15 +1,4 @@
 
-Wstęp, przywitanie
-
-O autorze
-
-O firmie
-
-O bibliotece
-
-
-
-
 Temat
 
 Interface
@@ -67,22 +56,22 @@ Każdy z nas ma w różnych tematach różne punkty widzenia:
 
 ## Moje podejście do jLoads 
 
-## Entuzjasta (30%)
+## @Entuzjasta (30%)
 Cieszy sie wszystkim co nowe w danym obszarze tematycznym
 dzieli się danymi technicznymi i sposobem użycia
 Skupienie na innowacyjności
 
-## Nauczyciel (10%)
+## @Nauczyciel (10%)
 Skupienie na definicji, logice, znaczeniu
 Czasem to dalszy etap entuzjazmu
 stara się wytłumaczyć jak można tego używać
 
 
-## Innowator, Twórca, Developer (60%)
+## @Innowator, Twórca, Developer (60%)
 Skupienie na miejscu w przestrzeni, jej wykorzystaniu, brakach, możliwościach
 Mając informacje o tym stara się to zmienić lub zainicjowac zmianę
 
-
+[comment]: <> (![modelina.png]&#40;modelina.png&#41;)
 
 # Temat Przentacji
 
@@ -147,7 +136,7 @@ Dlaczego chciałem to stworzyć?
 
 
 # Sens działania, tworzenia
-uzycie, doświadczenie, zrozumienie, ulepszenie
+użycie, doświadczenie, zrozumienie, ulepszenie
 
 Po dekadzie developmentu, postanowiłem zebrać razem wszystkie przemyślenia
 Od kilku lat notorycznie publiuję kod.
