@@ -1,7 +1,7 @@
 
 ![Logo.webslides.pl](https://logo.webslides.pl/2/cover.png)
 
-[4Developers demo](https://git.webslides.pl/)
+[4Developers demo](https://git.webslides.pl/jloads.html)
 
 ## WebSlides 
 from Markdown to Html and PDF
