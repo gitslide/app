@@ -21,6 +21,21 @@ Wiedza (o doświadczeniu w sprawdzeniu prawdziwości teorii/informacji)
 
     knowledge = experience( information );
 
+## Eksperyment
+
+
+
+# Proces tworzenia innowacji determinuje nauke
++ użycie, doświadczenie, zrozumienie, ulepszenie
+
+Po dekadzie developmentu, postanowiłem zebrać razem wszystkie przemyślenia
+Od kilku lat notorycznie publiuję kod.
+
+Zmiana następuje beze mnie, ale
+mogę zrozumieć/uchwycić trend wynikający z wielu nieznanych mi czynników
+
+Dlatego ten experyment
+
 Środowisko i jego wpływ
 
 Hobby
@@ -31,6 +46,22 @@ Kariera
 O firmie
 
 
+
+
+## Punkt widzenia
++ skillset
++ mindset
+
+przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
+
+Każdy z nas ma w różnych tematach różne punkty widzenia:
++ Entuzjasta
++ Nauczyciel
++ Innowator
+
+
+
+Help your engineers become the best version of themselves, grow great teams, have a place people want to work, be the leader people want
 
 ## Zainteresowania
 
@@ -54,14 +85,12 @@ O firmie
 
 
 ## Architektura oprogramowania
-  + decentralizacja => niezależne
-  + modularyzacja => niepodzielne
-
 
 ##  Psychologia/Socjologia
   + nauka poprzez uzycie
-  + Intuicja
-  + "The best way to predict your future is to create it"
+  + działanie
+    + "The best way to predict your future is to create it"
+    
   + "Nie chcesz po dobroci? to Ludzie Cię nauczą ..."
 
 

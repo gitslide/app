@@ -1,10 +1,6 @@
 # Softreck
 
-## Contact
++ pl
++ ru
++ de
 
-## Mission 
-
-## Vision
-
-## Goals 2021
-+ rozbudowa 

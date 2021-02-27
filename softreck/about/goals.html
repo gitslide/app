@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goals 2021</title>
+</head>
+<body>
+
+<img src="https://ericbrooke.files.wordpress.com/2018/12/four-pillars-copy-e1543803513717.jpg" alt="">
+
+<h1>
+    People Will Forget What You Said,
+    People Will Forget What You Did,
+    but People Will Never Forget
+    How You Made Them Feel
+</h1>
+<a href="https://pl.wikipedia.org/wiki/Maya_Angelou">Maya Angelou</a>
+
+<div class="entry-content">
+
+    <p>Software Engineer leadership is where you lead/manage a number of software engineers, directly or via another
+        manager(s). Your title could be Engineering lead, Software Engineer manager, R&amp;D Manager, Director of
+        Engineering or VP of Engineering or CTO.</p>
+
+
+    <p>Your work will be split between four main areas: People, Process, Product and Technology. The higher you go the
+        more your system design/architecture skills will matter and your coding less (unless you are in a small
+        company).&nbsp; You will be wrangling with managing people, process, product whilst evolving the technical
+        vision to fit all of your constraints. Hopefully you will be delegating and keeping a lot of things out of the
+        way of your engineers, so that your engineers can code.</p>
+
+
+    <p>In the end your short/medium term success will be determined by whether you can deliver the needs of product,
+        keep your engineer team motivated and fully explain what is going on e.g. translating complex technical things
+        into a language everyone can understand. Your long term success will be based in whether you made the right
+        choice/balance between building out features vs platform and whether you upgraded your team in the right way –
+        all why you helped the company stay in business.</p>
+
+
+    <p>A layer of good, well-trained, and experienced managers makes a massive impact on allowing engineers to deliver
+        on features and a solid platform, whilst growing those engineers to their full potential. A courageous leader
+        will be copied, by others.</p>
+
+
+    <p>This post is the first, of at least five more posts which will cover in depth People, Product, Process and
+        Technology. For these topics I have provided a summary within this post. If Leadership specifically is of
+        interest you can see some of my thoughts in the&nbsp;<a
+                href="https://ericbrooke.wordpress.com/2018/03/19/leadership-by-example/" target="_blank"
+                rel="noopener noreferrer">19 Leadership Posts.</a></p>
+
+
+    <p>In this post I will cover:</p>
+
+
+    <ol>
+        <li>Who leads who?</li>
+        <li>Founding Culture</li>
+        <li>Levels of Engineering Leadership</li>
+        <li>Areas of responsibility:
+            <ol>
+                <li>People</li>
+                <li>Process</li>
+                <li>Product</li>
+                <li>Technology</li>
+            </ol>
+        </li>
+        <li>Why am I a Software Engineer Leader?</li>
+        <li>Other Perspectives on Software Leadership</li>
+    </ol>
+
+
+    <p>In each section I have included Code-smells, patterns and anti-patterns to look for, I will keep adding
+        throughout my career. Any engineer will know these are things to look for but do not always predicate a problem…
+        Every organization will have anti-patterns and code-smells, identifying them helps you choose if that is the set
+        of problems you want to work with or not.</p>
+
+
+    <hr>
+
+
+    <h1>Who leads who?</h1>
+
+
+    <p>One of the first questions I ask in the interview, “<em>Is software engineering a servant to Product, or vice
+        versa or is it a true partnership?</em>” This allows you to unpack who is leading who and understand the
+        dynamics of this role.&nbsp;Really understanding the political make up will often tell you the type of job you
+        will do as a software engineer leader within a organization.</p>
+
+
+    <p>Sometimes you will find the culture is dominated by Sales especially in business to business (Hint – This can
+        lead to a big divide &nbsp;between release dates and expected date by clients).</p>
+
+
+    <p><em>Patterns to look for</em>:</p>
+
+
+    <ol>
+        <li>A partnership between Product, Design and Engineering</li>
+        <li>Tech Debt is understood including how it is created</li>
+        <li>Platform engineering is understood</li>
+        <li>Data is valued and its engineering is invested in</li>
+    </ol>
+
+
+    <p><em>Anti-patterns and Codesmells to look for:</em></p>
+
+
+    <ul>
+        <li>Engineering tells Product what to do -&gt; The end product may miss the human factor, may not truly
+            understand the customer, a lot of other departments will be frustrated – do not undervalue the importance of
+            good Product People.
+        </li>
+        <li>Product tells Engineering how to do -&gt; This often leads to a <a
+                href="https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2">feature
+            factory </a>and under investment in your platform, leading to much bigger rebuilds to scale well. Retainment
+            will be tough amongst engineering.
+        </li>
+        <li>Sales sells things that we have not built, designed or have the capacity to build. If It is common for Sales
+            to oversell their products, you are creating an awful environment for both your Customer and Engineering
+            people.
+        </li>
+        <li>For Startups -&gt; Is there a lot of “Playing Favorites” amongst the first tribe of people -&gt; Leads to
+            all new people feeling undervalued and retainment is tough.
+        </li>
+        <li>There are no leaders with courage e.g. decisions are put off -&gt; leave get another job or teach them how
+        </li>
+        <li>You have no data specialists -&gt; without reliable data you do not know what is truly going on and you will
+            not provide good analytics/reporting or have a hope to use Machine learning
+        </li>
+        <li>You have no single source of truth for your data -&gt; if you cannot trust reality and you have to guess, I
+            hope you have some very lucky people -&gt; Fix this!
+        </li>
+        <li>A lack of trust in the engineers -&gt; “hand on leadership” -&gt; micromanages, still codes, does not pay
+            enough attention to their people and their potential
+        </li>
+    </ul>
+
+
+    <hr>
+
+
+    <h1>Founding Culture</h1>
+
+
+    <p>I am going to assume that you have established product/market fit. As before that point the relationships and
+        problems are very different. (Thanks <a rel="noopener noreferrer" href="https://www.linkedin.com/in/glougheed/"
+                                                target="_blank">Glen</a>&nbsp;for the reminder) – lots of experiments by
+        Product to figure out the business.</p>
+
+
+    <p>The next area I focus on is how respected/trusted technology is within the organization.</p>
+
+
+    <p>One of the strongest influences is whether there was a technologist within the founding team and whether they are
+        still with the business. If not, you have a lot more work to do. If it is a Startup, also knowing if one or all
+        of the founding members has made a full transition to the C-Suite or not (they may have the title), this is easy
+        to tell by the decisions they get involved in e.g. they are still coding, the button should be blue, you should
+        hire an engineer not a DBA…</p>
+
+
+    <p><em>Anti-patterns and CodeSmells to look for:</em></p>
+
+
+    <ul>
+        <li>The Founder/CEO decides what roles you hire for e.g. Full Stack Engineer vs DBA. Expect challenge, this is
+            good, but if you have an agreed-upon budget and you are within it, then the actual Engineering Leadership
+            should be able to choose how to solve their problems
+        </li>
+        <li>“<em>Over</em>” involvement from Founders/CEO in Product Design, everyone may have opinions, but you should
+            trust the designers/POs/PMs or hire better ones and let them do their job
+        </li>
+        <li>Product is not talking to customers or sharing designs</li>
+        <li>You are waiting until everything is “perfect” before release e.g. Waterfall rather than Agile</li>
+        <li>There is a lot of opinion and there is no A/B testing with customers</li>
+        <li>Sales and Product complain that engineering can never deliver on-time i.e. blame culture or worse it’s
+            true.
+        </li>
+        <li>Choices are always made from data, i.e. the past -&gt; may show lack of risk/innovation</li>
+    </ul>
+
+    <h1>Levels of Engineering Leadership</h1>
+
+
+    <p>Below are some of the common leadership positions within Software Engineering, not every organization will have
+        them all and what you do in each role will vary massively on the size of the organization and how many engineers
+        you have.</p>
+
+
+    <h3>Technical(Tech) Lead Role</h3>
+
+
+    <p>Sometimes the leader will be the “technical lead” and sometimes not.&nbsp;If you want self organized teams the
+        Tech lead should <strong>NOT</strong> be a position but instead an opportunity for all team members and should
+        be based on a project or an epic. A great tech lead is a good influencer, educator and ensures that others in
+        the team get to be heard and their ideas explored. A Bad Tech lead tells the software engineers all the time how
+        they will Architect/design each feature e.g. micromanagement.</p>
+
+
+    <p>A great tech lead will share, and keep sharing domain expertise around the team. This will help engineers grow
+        and it will also not be so painful when an engineer leaves with ALL the domain knowledge for ALL the areas.
+        Leading an area/domain will also allow a person to start thinking bigger e.g. have the opportunity to consider
+        the strategic implications for their domain rather than just tactical feature additions.</p>
+
+
+    <h3>Engineering Lead/Team Lead</h3>
+
+
+    <p>Usually manages a couple of people (2-5). This position tends to only exist in Command &amp;
+        Control/hierarchal/authoritarian structures and not in organizations that are flat or have <a
+                href="https://www.scrumalliance.org/community/articles/2013/january/self-organizing-teams-what-and-how"
+                target="_blank" rel="noopener noreferrer">self organizing teams</a>. Their work may be split between the
+        following:</p>
+
+
+    <p><strong>Technical (approx 60%)</strong></p>
+
+
+    <ul>
+        <li>Coding/code reviews (40% to 60%)</li>
+        <li>System Design/Architecture (10% to 30%)</li>
+    </ul>
+
+
+    <p><strong>People (approx 20%)&nbsp;</strong></p>
+
+
+    <ul>
+        <li>Coaching team members (5% to 20%) e.g. one to one meetings and in the moment coaching, higher for more
+            junior team
+        </li>
+        <li>Team Building (0% to 10%) e.g. creating bonds, building resilience</li>
+        <li>On-Boarding (0% to 10%)</li>
+        <li>Administration (10% to 15%) e.g. performance reviews, recruitment, other HR/Finance needs</li>
+    </ul>
+
+
+    <p><strong>Processes (approx 20%)</strong></p>
+
+
+    <ul>
+        <li>Team Processes e.g. Agile (10% to 30%) e.g. standup, grooming, technical grooming, planning, Retros, sprint
+            review
+        </li>
+        <li>DevOps/Operations/Fires (0% to 50%)</li>
+        <li>Managing Up (0% to 10%)</li>
+        <li>Inter team alignment (0% to 10%) e.g. Platform, Security, API, Mobile etc</li>
+    </ul>
+
+
+    <p><strong>Product&nbsp;(approx 0%)</strong></p>
+
+
+    <ul>
+        <li>Product conversations (0% to 20%)</li>
+        <li>Product Design (0% to 10%)</li>
+    </ul>
+
+
+    <p>Realistically this is the last level that you will spend a lot of time coding unless you are in an early stage
+        startup. If you are lucky and you have a good manager above you this may be still be possible. If you are in a
+        specialized team and the only one of its type e.g. Mobile, Security or Data – its is likely you will have a lot
+        more work in terms of educating, championing for that specialization e.g. presentations, coaching engineers,
+        etc.</p>
+
+
+    <p>Whilst some organizations call a position Engineer Manager, when they says “Hands on Engineering manager” I would
+        say they are looking for the Eng Lead role, and they optimistically hope you can manage a bunch of engineers and
+        code. Shopify has this role, I would also say Facebook Eng Manager role is more technical than people orientated
+        and thus fits here.</p>
+
+
+    <h3>Engineering Manager</h3>
+
+
+    <p>Likely has between 4 and 12 engineers who report to them in one team. Science shows that the sweet spot is
+        between 3 to 9 engineers. In some cases each team will have a Tech Lead or a Team Lead who reports into you the
+        Manager. Younger organizations may give you multiple teams, which will likely stop your time coding. Team health
+        will be one of your priorities at this level.&nbsp;</p>
+
+
+    <p>An important foundation of engineering management is to be removing a lot of people/process/bureaucracy out of
+        the way of engineers so that they can spend more time with code.&nbsp;If your head is down coding there are a
+        lot of things you are likely missing.</p>
+
+
+    <p><strong>Building a career path</strong> for each of your engineers is very important to help them grow. This will
+        be a few minutes here there and everywhere. “Who should go on this new team” conversations, to sharing the work
+        or they way they work with colleagues and others. You need to be a champion for each of your engineers and those
+        moments will sometime be opportunistic and others carefully planned. The getting the actual ready for that
+        moment is covered under the coaching and creating a career plan. Ensuring each of your engineers has purpose,
+        autonomy and growing mastery is the set of keys to their and your success.</p>
+
+
+    <p>Your time will be split all over the place and you must be good at context switching to survive this role.</p>
+
+
+    <p><strong>Technical (approx 20%)</strong></p>
+
+
+    <ul>
+        <li>Coding/code reviews (0% to 60%)</li>
+        <li>System Design/Architecture (0% to 20%)</li>
+        <li>Technology Strategy (0% to 20%)</li>
+    </ul>
+
+
+    <p><strong>People (approx 20%)</strong></p>
+
+
+    <ul>
+        <li>Coaching team members (10% to 30%)</li>
+        <li>Building a career path (0% to 30%)</li>
+        <li>Team Building (0% to 20%)</li>
+        <li>On-Boarding (0% to 20%)</li>
+        <li>Recruitment (0% to 50%)</li>
+        <li>Administration (10% to 30%)</li>
+    </ul>
+
+
+    <p><strong>Product (approx 10%)</strong></p>
+
+
+    <ul>
+        <li>Product Delivery &amp; Development (10% to 30%)</li>
+        <li>Product Design (0% to 10%)</li>
+    </ul>
+
+
+    <p><strong>Processes (approx 50%)</strong></p>
+
+
+    <ul>
+        <li>Team Processes e.g. Agile (10% to 30%)</li>
+        <li>Documentation (10% to 20%)</li>
+        <li>DevOps/Operations/Fires (0% to 50%)</li>
+        <li>Building processes/policies/systems (10% to 30%)</li>
+        <li>Managing Up/Reporting Up or Internal Presentations (0% to 20%)</li>
+        <li>Engineering Leadership Alignment (10% to 30%)</li>
+        <li>Inter team alignment (10% to 20%) e.g. Platform, Security, API, Mobile etc</li>
+    </ul>
+
+
+    <p><em>Exception</em> -&gt; You lead a research team (The R in the R&amp;D) or a Mobile team in a web company. You
+        will have to do a lot of championing, advocating and explaining your tech to others.</p>
+
+
+    <h4>Areas to focus on</h4>
+
+
+    <ul>
+        <li>Delivery of commitments e.g. features/stories, etc</li>
+        <li>Team Health</li>
+        <li>Reduce unnecessary process</li>
+        <li>Ensure shared understanding with team and product</li>
+        <li>Career paths for each of your engineers</li>
+    </ul>
+
+
+    <h3>Director of Engineering</h3>
+
+
+    <p>Often you are managing managers. You will likely be involved in some level of architecture of system design, but
+        only to understand when big choices are being made. You will be responsible for creating/building
+        processes/policies/systems e.g. interview process or career ladder for all engineer types for the whole
+        department. You are likely to have some budget to control.&nbsp; You may also manage senior technical people who
+        are in charge of domains of engineering e.g. Front End, Test, Platform etc.</p>
+
+
+    <p>At this level you may also start been concerned with what does your platform look like in 2 to 3 years. For
+        example you may want to move beyond a monolith to services based architecture. Thus you will have to work with
+        product to take the big picture perspective and not just worry about how many features can you ram into the
+        monolith.</p>
+
+
+    <p><strong>Technical (approx 10%)</strong></p>
+
+
+    <ul>
+        <li>Coding (0% to 20%)</li>
+        <li>System Design/Architecture (0% to 20%)</li>
+        <li>Technology Strategy (10% to 30%)</li>
+    </ul>
+
+
+    <p><strong>People (approx 25%)</strong></p>
+
+
+    <ul>
+        <li>Coaching team members and managers (10% to 30%)</li>
+        <li>Building a career path (0% to 30%)</li>
+        <li>Team Building (0% to 10%)</li>
+        <li>Recruitment (20% to 50%)</li>
+        <li>On-Boarding (0% to 20%)</li>
+        <li>Administration (20% to 50%)</li>
+    </ul>
+
+
+    <p><strong>Processes (approx 45%)</strong></p>
+
+
+    <ul>
+        <li>DevOps/Operations/Fires (10% to 50%)</li>
+        <li>Building processes/policies/systems (10% to 40%)</li>
+        <li>Documentation (0% to 20%)</li>
+        <li>Managing Up /Reporting Up or Internal Presentations (10% to 40%)</li>
+        <li>Engineering Leadership Alignment(10% to 30%)</li>
+        <li>Inter team alignment (0% to 20%) e.g. Platform, Security, API, Mobile etc</li>
+        <li>Vendors (0% to 20%)</li>
+    </ul>
+
+
+    <p><strong>Product (approx 20%)</strong></p>
+
+
+    <ul>
+        <li>Product Roadmap Priorities (0% to 20%)</li>
+        <li>Platform/Core/API Infrastructure champion (10% to 20%)</li>
+        <li>Product Delivery &amp; Development (10% to 40%)</li>
+        <li>External Representation (0% to 20%) e.g. conferences, talks, etc</li>
+    </ul>
+
+
+    <p><em>Exception</em> -&gt; If you have people above you within Engineering (e.g. Product or Founder background) who
+        do not have engineering experience your time explaining what you are doing and why will increase, a lot.</p>
+
+
+    <h4>Areas to focus on</h4>
+
+
+    <ul>
+        <li>Delivery of commitments e.g. features/stories, etc</li>
+        <li>Managers Health/Growth</li>
+        <li>Reduce unnecessary process</li>
+        <li>Ensure shared understanding with your managers and product</li>
+        <li>Career paths for each of your managers</li>
+    </ul>
+
+
+    <h3>Vice-President of Engineering</h3>
+
+
+    <p>The VP Engineering is all about recruiting, management, internal communication and delivery — getting the product
+        out the door, while ensuring the team is delivering the agreed roadmap. You are often managing managers and
+        directors. A wide perspective on how your technology works and Leadership development will be core in this role.
+        Your focus will often be split between internal and external e.g. staff vs vendors. And your work day will be
+        split between high-level direction/strategy, choosing between technologies, long-term technical and product
+        strategy, working with legal department/people on technical matters, signing of partnerships with vendors, and
+        evolving the engineering culture you want/need.</p>
+
+
+    <p><strong>Technical (approx 10%)</strong></p>
+
+
+    <ul>
+        <li>Coding (0% to 10%)</li>
+        <li>System Design/Architecture (0% to 30%)</li>
+        <li>Technology Strategy (10% to 30%)</li>
+        <li>Where is the world going in technology (competition/partners/industry) (10% to 20%)</li>
+    </ul>
+
+
+    <p><strong>People (approx 30%)</strong></p>
+
+
+    <ul>
+        <li>Coaching team members and managers (10% to 30%)</li>
+        <li>Team Building (0% to 10%)</li>
+        <li>Recruitment (20% to 60%)</li>
+        <li>On-Boarding (0% to 20%)</li>
+        <li>Administration (10% to 50%)</li>
+        <li>Where is the world going in people (competition/partners/industry) (10% to 20%)</li>
+    </ul>
+
+
+    <p><strong>Processes (approx 40%)</strong></p>
+
+
+    <ul>
+        <li>DevOps/Operations/Fires (10% to 50%)</li>
+        <li>Reviewing processes/policies/systems (10% to 40%)</li>
+        <li>Documentation (0% to 20%)</li>
+        <li>Managing Up /Reporting Up or Presentations (10% to 50%)</li>
+        <li>Engineering Leadership Alignment(10% to 30%)</li>
+        <li>Vendors (0% to 20%)</li>
+        <li>Business Strategy (10% to 30%)</li>
+    </ul>
+
+
+    <p><strong>Product (approx 20%)</strong></p>
+
+
+    <ul>
+        <li>Product Roadmap Priorities (0% to 20%)</li>
+        <li>Platform/Core/API Infrastructure champion (10% to 20%)</li>
+        <li>Product Strategy (10% to 30%)</li>
+        <li>External Representation (0% to 30%) e.g. conferences, talks, etc</li>
+    </ul>
+
+
+    <p>You take the base % of each category you may notice its above 100%, yes you will find you miss the days of 9 to
+        5, to keep up you will need extra hours to have the information you need or have great people who can support
+        you.</p>
+
+
+    <h4>Areas to focus on</h4>
+
+
+    <ul>
+        <li>Budget</li>
+        <li>People Planning</li>
+        <li>Culture</li>
+        <li>Managing Up</li>
+        <li>Team Health</li>
+        <li>Reduce unnecessary process</li>
+        <li>Ensure shared understanding with team and product</li>
+        <li>Career paths for each of your Managers</li>
+    </ul>
+
+
+    <h4>Time to think strategically</h4>
+
+
+    <p>This role can also be dramatically different if there is no CTO. Note the senior leadership capacity (number of
+        people) for each department, it will often show the balance of influence of each department e.g. if there is a
+        VP of Eng, but CMO + VP Marketing and directors. Marketing will have more edge, as the CMO has more time to
+        think through things versus the VP of Eng who may be “running the department” and have less strategic thinking
+        time.</p>
+
+
+    <h4>VP Engineering Patterns and AntiPatterns</h4>
+
+
+    <p>The success will depend as much on the CTO and as the team. A great partnership with the CTO is essential. These
+        could impact at every level below:</p>
+
+
+    <p><strong>Homegrown CTO or Technical Founder</strong> – That will not let go That is still coding or “advising” on
+        features and code that they built. This can help in organizations that the person above does not “know”
+        technology or there are no board members who come from a Technology background. They will only employ “hand-on”
+        people as they have not learnt how to grow others, and/or trust other engineers.</p>
+
+
+    <p><strong>External only focused CTO </strong>– They sen a lot of time winning awards, helping the community at
+        conferences. They do not focus on the C-Suite or understand what is going on in their department. </p>
+
+
+    <h4>Resources for VP Software Engineering</h4>
+
+
+    <ul>
+        <li><a href="https://avc.com/2011/10/vp-engineering-vs-cto/">VP Engineering Vs CTO</a></li>
+        <li>
+            <a href="https://bothsidesofthetable.com/want-to-know-the-difference-between-a-cto-and-a-vp-engineering-4fc3750c596b">Want
+                to Know the Difference Between a CTO and a VP Engineering?</a></li>
+        <li><a href="https://www.slideshare.net/bcantrill/cto-vs-vp-of-engineering">CTO vs. VP of Engineering</a></li>
+        <li><a href="https://a16z.com/2017/05/26/hiring-vp-engineering-why-what/">Hire a VP of Engineering</a></li>
+        <li><a href="https://medium.com/@raffi/what-does-a-vp-of-engineering-do-again-553817fbbf2a">What does a VP of
+            Engineering do, again?</a></li>
+    </ul>
+
+
+    <h3>Chief Technology Officer (CTO)</h3>
+
+
+    <p>Most of your time will be spent with you primary team e.g. C Suite or as the external face to the company. You
+        will be a professional in translating and communicating technical issues in a language everyone can understand.
+        You will be helping the organization define the balance between new feature development vs. Tech Debt. You may
+        also do a level of Product depending who owns Product at the C-Suite level. You will also be driving business
+        strategy and revenue through identifying and implementing new technologies. You know where is the world going in
+        technology (competition/partners/industry. You will be often looking after the Board, you may be forming
+        strategic technical partnerships. Or you maybe the chief architect. The interplay between this role and a VP of
+        Engineering will often working in partnership.</p>
+
+
+    <h3>Chief Information Officer (CIO)</h3>
+
+
+    <p>Sometimes this role will be part of the CTOs role. CIOs work on setting strategy and direction to manage the
+        company’s internal infrastructure and technical operations. That can include employee software
+        applications/tools, internal communication (e.g. wiki, IM), technical infrastructure (e.g. wifi), process
+        control, access control, employee network, cost management, integration of technologies across departments.</p>
+
+
+    <p>Splitting Tech between CTO and CIO can create some very “interesting” dynamics, often creating many extra
+        problems at the ground level within DevOps, perceived (sometimes real) boundaries e.g. who is responsible for
+        this (“Throwing over the Wall”)or within movement of engineers from one role to another.</p>
+
+
+    <h2>Engineering Leadership</h2>
+
+
+    <p>Some companies think they can get by with no real management. They rely on Tech Leads (who are given no effective
+        training or support), ignore engineering management and the next title is a Director, VP or CTO. They often do
+        not train/coach/mentor their engineers to their potential. Thus there will be little coaching on
+        communication/people skills if they are weak, and engineers often ask about their next career steps, some will
+        find it easier to get “their” promotion by leaving. The lack of growth in communication/people skills has
+        massive impact on the culture of the organization of engineering. In addition, learning to coach/mentor/teach is
+        a set of skills that can take a while to learn fully. Sometimes this will be dismissed as “Soft Skills” –
+        Presentations, Empathy, Feedback, Influence are all skills that will determine your success as a business and
+        thus in my book are “Hard Skills” and all can be taught/coached. For those that feel they can avoid these skills
+        by taking the Technical pathway, have yet to try to convince engineers, in multiple teams, to change what they
+        are doing..</p>
+
+
+    <h3>“Hands-on”</h3>
+
+
+    <p>or are you technical is a term that is thrown around without understanding. It can show that the organisation
+        needs technical leadership, it can also show there is no trust in the engineers, which also show no
+        “growing”/coaching/mentoring exists or many other things. This is a debate that exists with technology that will
+        never go aways because it is the attempt to understand the balance between your technology skills vs people
+        skills. It is also overlapped with the bigger conversation between specialist and generalist and what they both
+        mean. I also wonder if it leads to Ageism that we see in the tech sector. </p>
+
+
+    <p><em>Anti-Patterns and CodeSmells in management/leaders of Engineers</em></p>
+
+
+    <ol>
+        <li>Someone who is in an engineering leadership position without ever been an engineer</li>
+        <li>There is a blame or fear culture</li>
+        <li>The engineer leader has never received any training or quality coaching</li>
+        <li>Engineers are only valued based on the code they produce</li>
+        <li>All engineers are full-stack engineers</li>
+        <li>No Career Ladder for Software Leadership</li>
+        <li>No internal promotions to senior leadership roles</li>
+        <li>Too many internal promotions</li>
+        <li>Your CTO or VP (not a tech co-founder) is writing code</li>
+        <li>The CTO and VP Engineering are not aligned</li>
+        <li>There is no CTO or no VP Engineering</li>
+        <li>Anyone making engineering decisions when they were never an engineer</li>
+        <li>No Engineer Managers for companies with over 30 Engineers</li>
+    </ol>
+
+
+    <h1>Areas of responsibility</h1>
+
+
+    <p>There are four areas of responsibility that exist throughout all software engineer leadership. How much of each
+        you will have to manage, will vary by company, culture and role. I will give a summary below and I am writing a
+        separate blog or two on each area. The four areas to manage are P4T:</p>
+
+
+    <ul>
+        <li>People</li>
+        <li>Process</li>
+        <li>Product</li>
+        <li>Technology</li>
+    </ul>
+
+
+    <hr>
+
+
+
+    <h2>1. People</h2>
+
+
+    <p><em>Help your engineers become the best version of themselves,&nbsp;grow&nbsp;great&nbsp;teams,&nbsp;have&nbsp;a&nbsp;place&nbsp;people&nbsp;want&nbsp;to&nbsp;work,&nbsp;be&nbsp;the&nbsp;leader&nbsp;people&nbsp;want&nbsp;to&nbsp;follow</em>
+    </p>
+
+
+    <p><span class="Apple-converted-space">How good are you with humans and interacting with them? Do they leave conversations with you drained or empowered&nbsp;or confused? &nbsp;How do you help them evolve to be the best version of themselves? Some people dismiss this as “soft” skills, frankly if you are an effective leader&nbsp;this will be the “hardest” skill you have. You could&nbsp;help an engineer go from good work to excellent work. People leave poor leaders</span>
+    </p>
+
+
+    <ul>
+        <li><span class="Apple-converted-space">Can you lead or influence other people, without position/title?</span>
+        </li>
+        <li><span class="Apple-converted-space">How good are you at conflict/disagreements?</span></li>
+        <li><span class="Apple-converted-space">Can you share your opinion and people listen?</span></li>
+        <li><span
+                class="Apple-converted-space">Can you educate people through&nbsp;presenting or mentoring or coaching?</span>
+        </li>
+        <li>How often do you have one to one meetings?</li>
+        <li>How do ensure that you cover coaching, operational issues and career pathway – in your one to ones?</li>
+        <li><span class="Apple-converted-space">How do you manage your emotions? How&nbsp;vulnerable can you be?</span>
+        </li>
+        <li><span class="Apple-converted-space">How do you intentionally or&nbsp;otherwise affect other&nbsp;people’s emotions?</span>
+        </li>
+        <li>Do you understand how your decisions will affect your team’s emotions?</li>
+        <li>How good are your change management skills? Are they surprised?</li>
+        <li>How do you structure the department and teams?</li>
+        <li>How do you grow each engineer?</li>
+        <li>How do you grow each team?</li>
+        <li>How do you grow the Department?</li>
+        <li>How do you help your stakeholders grow? and understand your team(s)?</li>
+    </ul>
+
+
+    <p><em>Anti-Patterns to look for:</em></p>
+
+
+    <ol>
+        <li>There are no one to ones</li>
+        <li>Your manager is never available</li>
+        <li>The engineers are not diverse in any way</li>
+        <li>Poor Reputation amongst the engineering community (check out Glassdoor.com)</li>
+        <li>A weak or impersonal interview process</li>
+        <li>Managers have more than 10 staff reporting directly to them</li>
+        <li>There is no Technical career path e.g. Career Ladder</li>
+        <li>There is no Leadership career path e.g. Career Ladder</li>
+        <li>Fast Tracking of Recruitment candidates, because they have a friend or your boss told you to do it</li>
+        <li>Calling people “resources”, not people or engineers</li>
+        <li>Leaders who say one thing to your face and another via email</li>
+        <li>The churn rate (leaving the organization) of engineers and leaders (check Linkedin)</li>
+        <li>The engineers do not feel like they are doing some interesting work</li>
+        <li>Engineers do not know what their career path is</li>
+        <li>Management that talks behind each others backs and not to each other</li>
+        <li>Detached CTO</li>
+        <li>People cannot give necessary direct feedback to each other</li>
+    </ol>
+
+
+    <h4>Books on People within Software engineering:</h4>
+
+
+    <ul>
+        <li><a href="https://www.goodreads.com/book/show/6452796-drive?from_search=true">Drive: The Surprising Truth
+            About What Motivates Us by Daniel Pink</a></li>
+        <li><a href="https://www.goodreads.com/book/show/67825.Peopleware?from_search=true">Peopleware: Productive
+            Projects and Teams by Tom DeMarco</a></li>
+        <li><a href="https://www.goodreads.com/book/show/27751552-elastic-leadership?ac=1&amp;from_search=true">Elastic
+            Leadership by Roy Osherove</a></li>
+        <li><a href="https://www.goodreads.com/book/show/1317946.Managing_Humans?from_search=true">Managing Humans by
+            Michael Lopp</a></li>
+        <li><a href="https://www.goodreads.com/book/show/15769480-the-culture-game?from_search=true">The Culture Game by
+            Daniel Mezick</a></li>
+        <li><a href="https://www.goodreads.com/book/show/48019.The_Effective_Executive?from_search=true">The Effective
+            Executive by Peter F. Drucker</a></li>
+        <li><a href="https://www.goodreads.com/book/show/29939161-radical-candor?from_search=true">Radical Candor by Kim
+            Malone Scott</a></li>
+    </ul>
+
+
+    <hr>
+
+
+    <h2>2. Process<span class="Apple-converted-space">&nbsp;</span></h2>
+
+
+    <p><em>Bring consistency to delivery, find bottlenecks and remove them, keep evolving the processes</em></p>
+
+
+    <p>How do you organize people to be productive, keep getting better and produce high quality work? Effective
+        processes will help your teams do their jobs with less confusion (and more shared understanding), faster
+        on-boarding and a clear north in moments of chaos. Processes can also introduce a fairer approach. That said,
+        effective processes need to evolve/change and they should be versioned. &nbsp;They will sometimes get in the
+        way, and maybe they should and maybe they should not. That’s where management decides.</p>
+
+
+    <ul>
+        <li><span class="Apple-converted-space">How do you drive productivity? e.g. Agile/Waterfall, </span></li>
+        <li><span class="Apple-converted-space">How much time do engineers&nbsp;spend in meetings vs coding? How do they code without interruption?</span>
+        </li>
+        <li><span class="Apple-converted-space">How do you ensure improvement i.e. kaizen or reflection (in yourself and your teams)?</span>
+        </li>
+        <li>How is your tech debt approached?</li>
+        <li>How do you measure your platforms performance?</li>
+        <li><span class="Apple-converted-space">How do you interact with Product and Customers? </span></li>
+        <li><span class="Apple-converted-space">How do you evaluate different technologies?</span></li>
+        <li>How do you know when there is an incident? and what to do?</li>
+        <li>How do you release your software to production?</li>
+        <li>How do you ensure software quality?</li>
+        <li>How good is your interview process?</li>
+        <li>How do you reward e.g. promotion, merit increase? How often?</li>
+        <li>How good is your documentation?</li>
+        <li>How do teams share the work they are doing?</li>
+        <li>How do you protect time for you to do your job(s)?</li>
+    </ul>
+
+
+    <p><em>Anti-patterns to look for:</em></p>
+
+
+    <ol>
+        <li>No budget</li>
+        <li>No tests</li>
+        <li>No Production Support</li>
+        <li>Teams with a lot of manual work that can be automated</li>
+        <li>C Suite does not understand what Tech Debt is and what the platform has to fix</li>
+        <li>Takes weeks to release code</li>
+        <li>A poor on call system with too few people on call</li>
+        <li>Teams are bigger than 9 engineers</li>
+    </ol>
+
+
+    <p>Books on Process within software engineering:</p>
+
+
+    <ul>
+        <li>The Goal: A Process of Ongoing Improvement</li>
+        <li>The Mythical Man-Month by&nbsp;Frederick P. Brooks Jr.</li>
+        <li>Lean from the Trenches: Managing Large-Scale Projects with Kanban by Henrik Kniberg</li>
+        <li>Essential Scrum: A Practical Guide to the Most Popular Agile Process&nbsp;by Kenneth S. Rubin</li>
+        <li>The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win by Gene Kim<br></li>
+    </ul>
+
+
+    <hr>
+
+
+
+    <h2>3. Product</h2>
+
+
+    <p><em>Know your customers and deliver what solves their pain</em></p>
+
+
+    <p>The level of product involvement for Software Leadership will differ by organization. Regardless, knowing your
+        products will help you do a better job.</p>
+
+
+    <ul>
+        <li>How do you know what causes your customer pain?</li>
+        <li>What is the Product Vision?</li>
+        <li>Who are your competition?</li>
+        <li>What is the plan to get MVP or the next chapter of your product?</li>
+        <li>Where do the UX/UI designs come from?</li>
+        <li>How are you going to make money?</li>
+        <li>How do you work with Sales, Marketing?</li>
+        <li>How do you manage Releases with Customer support?</li>
+        <li>What is your churn rate of customers and why?</li>
+        <li>What do customer most want to buy of what you sell?</li>
+    </ul>
+
+
+    <p><em>Anti-Patterns to look for:</em></p>
+
+
+    <ol>
+        <li>No research, all opinion and anecdotes</li>
+        <li>No researchers – Product, Business or UX</li>
+        <li>Product Design/UX/UI is not valued</li>
+        <li>Designs are not tested with customers, before coding</li>
+        <li>Engineers do not know who their customers are</li>
+        <li>Big Product decisions are not transparent</li>
+        <li>An over reliance on numbers to make the case</li>
+        <li>An under reliance on numbers to make the case</li>
+        <li>No innovation</li>
+        <li>Too many products/features vs focused</li>
+        <li>The acceptance criteria for stories/features are weak or do not exist</li>
+        <li>There are no Business analysts/researchers supporting Product Owners</li>
+        <li>No balance between building features and building a reliable platform</li>
+    </ol>
+
+
+    <h4>Books on Product for Software engineering</h4>
+
+
+    <ul>
+        <li>Business Model Generation by Alexander Osterwalder</li>
+        <li><a href="https://www.goodreads.com/book/show/22337524-value-proposition-design?ac=1&amp;from_search=true">Value
+            Proposition Design: How to Create Products and Services Customers Want by Alexander Osterwalder</a></li>
+        <li>Impact Mapping by Gojko Adzic</li>
+        <li>User Story Mapping by Jeff Patton</li>
+        <li>Star Small, Stay Small: A Developers Guide to launching a Startup by Rob Walling</li>
+        <li>Hooked by Nir Eyal</li>
+        <li>Product Design for the web by Randy J. Hunt</li>
+        <li>The four steps to the Epiphany by Steven Gary Blank</li>
+        <li><a href="https://www.goodreads.com/book/show/21411450-fifty-quick-ideas-to-improve-your-user-stories">Fifty
+            Quick Ideas to Improve Your User Stories</a> by Gojko Adzic
+        </li>
+    </ul>
+
+
+    <hr>
+
+
+    <h2>4. Technology</h2>
+
+
+    <p><em>Create great features, Know how the features are used, Manage your legacy products and Build a better
+        platform.</em></p>
+
+
+    <ul>
+        <li>How well do you know software, hardware and its organization and implementation?</li>
+        <li>What are the pros and cons of each domain of your platform?</li>
+        <li>How do you evaluate the technical skills of your engineers? How does this compare to your interview
+            process?
+        </li>
+        <li>How do grow technical skills in your engineers?</li>
+        <li>How good is your system design?</li>
+        <li>How do you improve the performance of your platform?</li>
+        <li>How do you keep your platform secure?</li>
+        <li>Can you code? Without blocking your team?</li>
+        <li>How well do you know the architecture?</li>
+        <li>Do you know the tools your business uses?</li>
+        <li>How do you keep up to-date with changes within the software?</li>
+        <li>How do you push your technical knowledge? e.g. what is next?</li>
+        <li>How do you balance features been built with increased stable platform?</li>
+        <li>Do you have skills within the team to support and progress the technology?</li>
+    </ul>
+
+
+    <p><em>Anti-patterns to look for:</em></p>
+
+
+    <ol>
+        <li>No architectural vision</li>
+        <li>No innovation</li>
+        <li>You build everything yourself.. run, run now</li>
+        <li>Less than 30% of engineers’ time is allocated to Tech Debt or there is no platform/core teams</li>
+        <li>Your Databases are important to you and you have no one who is an expert in DBs e.g. a DBA</li>
+        <li>Your UI/UX is important to you and you have no designers, UX Researcher or Front end Engineers</li>
+        <li>You have no clear vision for each of your platforms e.g. Web and Mobile. I see a lot of companies have a
+            poor Vision/Strategy for Mobile unless they are only Mobile.
+        </li>
+        <li>There is no plan or team supporting APIs</li>
+        <li>You only have junior engineers or engineers who have only worked on one codebase</li>
+        <li>You are building for scalability before you know what your business is</li>
+        <li>Ratio of Engineers to QA/Test is greater than 3:1</li>
+        <li>You have a small Mobile team (depends on the business)</li>
+    </ol>
+
+
+    <h3>Books for Technology in Software Engineering:</h3>
+
+
+    <ul>
+        <li>
+            <a href="https://www.goodreads.com/book/show/28602719-domain-driven-design-distilled?ac=1&amp;from_search=true">Domain-Driven
+                Design Distilled by Vaughn Vernon</a></li>
+        <li><a href="http://aosabook.org/en/index.html">The Architecture of Open Source Applications</a></li>
+        <li>
+            <a href="https://www.goodreads.com/book/show/70156.Patterns_of_Enterprise_Application_Architecture?from_search=true">Patterns
+                of Enterprise Application Architecture by Martin Fowler</a></li>
+        <li>
+            <a href="https://www.goodreads.com/book/show/23615147-web-scalability-for-startup-engineers?from_search=true">Web
+                Scalability for Startup Engineers by Artir Ejsmont</a></li>
+        <li><a href="https://www.goodreads.com/book/show/7282390-the-art-of-scalability?from_search=true">The Art of
+            Scalability by Martin L Abbott</a></li>
+        <li><a href="https://www.goodreads.com/book/show/10284614-the-clean-coder?from_search=true">The Clean Coder by
+            Robert C. Martin</a></li>
+        <li><a href="https://www.goodreads.com/book/show/3735293-clean-code?from_search=true">Clean Code by Robert C.
+            Martin</a></li>
+        <li><a href="https://www.goodreads.com/book/show/26083308-the-devops-handbook?from_search=true">The DevOps
+            Handbook by Gene Kim</a></li>
+        <li><a href="https://medium.com/netflix-techblog">The Netflix Tech Blog</a></li>
+        <li><a href="https://engineering.shopify.com">Shopify Tech Blog</a></li>
+        <li><a href="https://code.fb.com">FB Code</a></li>
+        <li><a href="https://www.goodreads.com/book/show/35747076-accelerate">Accelerate by Nicole Forsgren</a></li>
+    </ul>
+
+
+    <figure class="wp-block-image">
+        <figcaption><a href="https://www.goodreads.com/review/list/6498528-eric-brooke?shelf=software-development">One
+            of my book shelves</a></figcaption>
+    </figure>
+
+
+    <hr>
+
+
+    <h2>The balancing of People, Process, Product and Tech</h2>
+
+
+    <p>The order of importance of each of these areas depends on the culture, people and things you need to
+        fix/upgrade/patch. Often if one is under-performing then the others will hurt as well. If you processes are
+        weak, then knowledge is likely to reside in a few people who will leave (because they are overworked), which
+        will be a hard hit for the organization and remaining people. If Technology is weak then your platform is likely
+        to go down often, you could lose data, and it can be hard to add extra features. If your people are not invested
+        in, or worse you hire the wrong people, they will leave. And finally if your product is not understood, your
+        customers leave and no one has a job.</p>
+
+
+    <p>Whilst I have focused this blog on Engineering management, do not be mistaken that I do not fully value a
+        technical career pathway. It is essential for allowing full growth of the majority of engineers, a healthy
+        codebase and timely product release.</p>
+
+
+    <hr>
+
+
+    <h1>Why am I a Software Engineer Leader?</h1>
+
+
+    <ul>
+        <li>I love helping people reach their potential</li>
+        <li>I love technology and ensuring it is doing the right thing</li>
+        <li>I love solving problems with other problem solvers whether they be engineers, product, designers or
+            customers
+        </li>
+        <li>I love the creation of a hypothesis and figuring out if it is true, and if not toss it away and move to the
+            next
+        </li>
+        <li>Understanding complexity to a level that you can explain it to anyone</li>
+        <li>Looking around corners and guessing what the future options are</li>
+        <li>Growing people to be better problem solvers, able to drop ego and traverse through multiple science
+            experiments and be good people to work with
+        </li>
+        <li>Solving tough problems that hopefully help people</li>
+    </ul>
+
+
+    <hr>
+
+
+    <h1>Other perspectives</h1>
+
+
+    <h4>Microsoft Perspective</h4>
+
+
+    <div class="wp-block-image">
+        <figure class="aligncenter">
+            <figcaption>
+                <a href="https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf">What
+                    Makes a Great Manager of Software Engineers? Microsoft</a>
+            </figcaption>
+        </figure>
+    </div>
+
+
+    <h4><strong>Googles’s’ Perspective</strong> – Project Oxygen</h4>
+
+
+    <ol>
+        <li>Is a good coach</li>
+        <li>Empowers team and does not micro- manage</li>
+        <li>Expresses interest/concern for team members’ success and well-being</li>
+        <li>Is productive and results-oriented Is a good communicator</li>
+        <li>Helps with career development</li>
+        <li>Has a clear vision/strategy for the team</li>
+        <li>Has important technical skills that help him/her advise the team</li>
+    </ol>
+
+
+    <p><em>D. Garvin, A. B. Wagonfeld, and L. Kind, “Google’s Project Oxygen: Do Managers Matter?” Harvard Business
+        School Case 313-110, Tech. Rep., 01 2013.</em></p>
+
+
+    <h4>My perspective</h4>
+
+
+    <ul>
+        <li>Facilitates a team vision with the team</li>
+        <li>Achieving collective support in multi-stakeholder environments</li>
+        <li>Discerning and prioritizing diverse stakeholder needs</li>
+        <li>Reconciling differences and presenting a unifying vision</li>
+        <li>Achieving buy-in and support for complex projects and programs</li>
+        <li>Leading in a multicultural environment</li>
+        <li>Creating a motivating environment</li>
+        <li>Influencing the team drive to act in support of mission, goals, and technical execution.</li>
+        <li>Good with Feedback and constructive conflict</li>
+        <li>Managing conflict and negotiations</li>
+        <li>Achieve Leadership and organizational alignment – Values, Vision and Mission <br></li>
+    </ul>
+
+
+    <p>I do not believe my view is the only one, here are some others:</p>
+
+
+    <ul>
+        <li>Google -&gt; <a
+                href="https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/">https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/</a>
+        </li>
+        <li>Report -&gt; <a
+                href="https://www.microsoft.com/en-us/research/uploads/prod/2018/06/kalliamvakou-tse-2018.pdf">What
+            Makes a Great Manager of Software Engineers?</a></li>
+        <li>Book -&gt; <a rel="noopener noreferrer" href="https://www.goodreads.com/book/show/30454232-managing-humans"
+                          target="_blank">Managing Humans</a></li>
+        <li>Book -&gt; <a rel="noopener noreferrer"
+                          href="https://www.goodreads.com/book/show/27751552-elastic-leadership?from_search=true"
+                          target="_blank">Elastic Leadership</a></li>
+        <li>Blog -&gt;&nbsp;<a rel="noopener noreferrer"
+                               href="https://blog.usejournal.com/how-to-fail-as-a-new-engineering-manager-30b5fb617a"
+                               target="_blank">How to fail as a new engineering manager&nbsp;</a></li>
+        <li>Video -&gt; <a rel="noopener noreferrer" href="https://m.youtube.com/watch?v=pAbU3WJ-NBw" target="_blank">Manager
+            death spiral by Michael Loop</a></li>
+        <li>Blog -&gt;&nbsp;<a rel="noopener noreferrer"
+                               href="https://techvibes.com/2018/06/27/eight-things-we-learned-from-reading-49-manager-readmes"
+                               target="_blank">Eight Things We Learned From Reading 49 Manager READMEs</a></li>
+        <li>wiki -&gt; <a href="http://wiki.c2.com/?ManagementAntiPatternRoadMap">Management Anti-Patterns</a></li>
+        <li>Podcast -&gt; <a href="http://www.managingup.show/895bb722">CTO vs. VP Engineering: What’s the
+            Difference?</a></li>
+    </ul>
+
+
+    <p>
+        https://ericbrooke.blog/2018/09/16/software-engineering-leadership/
+    </p>
+</div>
+
+</body>
+</html>
