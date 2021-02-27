@@ -1,3 +1,297 @@
+## Podziękowanie
+
+Za możliwość wzięcia udziału w tej konferencji
+Jest to dla mnie bardzo ważne doświadczenie bo pierwsze!
+
+
+## Jak zrobić zaangażowanie?
+
+- online
+- pierwsza konferencja
+- pierwsza publiczna prezentacja na żywo
+
+Opis sytuacji
++ mamy dziś trochę do zrobienia
+
+Kara
++ deadline jest na 45 MInut, jak sie nie wyrobimy to nie dojdziemy do konca
+a tam jest nagroda do wygrania
+  
+Nagroda
++ ksiazka dla tych co zrobia pierwszy ticket,
+kazdy dostanie donate do wybranej ksiazki 70%
+  
+
+- napisac do ksiegarni, ktora sie zgodzi na takie rozwiazanie
+bedzie to polegalo na tym, ze kazdy kto zrobi commit/push (kodu/opisu) na jLoads
+  
+dostanie rabat na jedną książkę, 
+sponsorwany przez firme Softreck
+  
+  
+
+
+## 
+
++ O autorze
++ O Projektach OpenSource: ApiFoundation
++ O Organizacji, Firmie Softreck
+
+## Plan Prezentacji / Wystąpienia
+
+
+## Konkurs
+# O autorze
+
+# Doświadczenie
+
+Empiryzm, nauka przez doświadczanie
+Wiedza (o doświadczeniu w sprawdzeniu prawdziwości teorii/informacji)
+    
+    knwowledge = null;
+    
+    function experience(byte[] information) {
+      for(n=0; information[no]no++;){
+        result[no] = information[no] === true;
+        knowledge.add({
+          information: information[no],
+          result: result[no],
+          kontekst: ....
+        });
+      }
+      return knowledge;
+    }
+
+    knowledge = experience( information );
+
+## Eksperyment
+
+
+
+# Proces tworzenia innowacji determinuje nauke
++ użycie, doświadczenie, zrozumienie, ulepszenie
+
+Po dekadzie developmentu, postanowiłem zebrać razem wszystkie przemyślenia
+Od kilku lat notorycznie publiuję kod.
+
+Zmiana następuje beze mnie, ale
+mogę zrozumieć/uchwycić trend wynikający z wielu nieznanych mi czynników
+
+Dlatego ten experyment
+
+Środowisko i jego wpływ
+
+Hobby
+
+Kariera
+
+
+O firmie
+
+
+
+
+## Punkt widzenia
++ skillset
++ mindset
+
+przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
+
+Każdy z nas ma w różnych tematach różne punkty widzenia:
++ Entuzjasta
++ Nauczyciel
++ Innowator
+
+
+
+Help your engineers become the best version of themselves, grow great teams, have a place people want to work, be the leader people want
+
+## Zainteresowania
+
++ Software development
++ DevOps
++ Architektura oprogramowania
++ Psychologia/Socjologia
+  
+
+## Software development
+  + tworzenie abstrakcyjnych modeli rzeczywistosci
+  + testowanie i proptotypowanie modeli
+  + poprzez doświadczanie - uczenie sie na modelach
+
+## DevOps  
+  + automatyzacja
+  + optymalizacja
+  + Lean Management
+    + skomplikowane ale procesy 
+    + proste zasady obsługi
+
+
+## Architektura oprogramowania
+
+##  Psychologia/Socjologia
+  + nauka poprzez uzycie
+  + działanie
+    + "The best way to predict your future is to create it"
+    
+  + "Nie chcesz po dobroci? to Ludzie Cię nauczą ..."
+
+
+## Polecane książki
+
++ Development
+    + Systems and Software Quality
+        + Wieczorek, Martin, Vos, Diederik, Bons, Heinz
++ Lean Management
+  
++ Architecture
+  + Clean Architecture: A Craftsman's Guide to Software Structure and Design 
+      + Robert C. Martin
+  + The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
+    + Gregor Hohpe, Bobby Woolf
+  + Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions
+    + Gene Kim, Patrick Debois,  John Willis, Jez Humble
+
++ Startups
+
+## Polecane Strony WWW
+
++ Architecture
+  + [Blog . Clean Coder .com ](https://blog.cleancoder.com/)
+  + [Enterprise Integration Patterns .com](https://www.enterpriseintegrationpatterns.com/)
+  + [The Transformation Architect - The Architect Elevator](https://architectelevator.com/)
+
++ Softreck
++ Entuzjasta
++ ApiFoundation
++ jLoads
+
+
+## Jak pracuję
+
+
++ Hardware Tools
++ Software Tools
+
+# Softreck
+
+## Kontakt
+
+## Misja 
+
+## Wizja
+
+## Cele na rok 2021
++ rozbudowa 
+
+Help your engineers become the best version of themselves:
+
++ grow great teams, 
++ have a place people want to work,
++ be the leader people want 
+## Punkt widzenia
++ skillset
++ mindset
+
+przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
+
+Każdy z nas ma w różnych tematach różne punkty widzenia:
++ Entuzjasta
++ Nauczyciel
++ Innowator
+
+
+## Moje podejście do jLoads 
+
+## @Entuzjasta (30%)
+Cieszy sie wszystkim co nowe w danym obszarze tematycznym
+dzieli się danymi technicznymi i sposobem użycia
+Skupienie na innowacyjności
+
+## @Nauczyciel (10%)
+Skupienie na definicji, logice, znaczeniu
+Czasem to dalszy etap entuzjazmu
+stara się wytłumaczyć jak można tego używać
+
+
+## @Innowator, Twórca, Developer (60%)
+Skupienie na miejscu w przestrzeni, jej wykorzystaniu, brakach, możliwościach
+Mając informacje o tym stara się to zmienić lub zainicjowac zmianę
+
+## Tworzenie
++ plastelina
++ klocki w 2d
++ klocki w 3d - niekończący się tetris => HTTP i STREAMOWANIE 
+
+## Plastelina
+[comment]: <> (![modelina.png]&#40;modelina.png&#41;)
+
+
+# Cel Projektu
+
+Eksperyment jako inspiracja do odrywania czegoś poza
+horyzentom obecnych trendó.
+Uchwycenie teczhnicznej natury www
++ Skupienie sie na tym co zmienne, aby 
+  umieć odnaleźć naturę, zrozumieć i wykorzystać jako funkcję
+
+
+Pierwszy zamysł był taki
+aby możliwe było uruchomienie na tym samym kodzie
+aplikcji w różnym środowisku, różnej domenie
+
++ refaktorywzacja -> reużycie
++ przejmowanie po kimś projektów, chęć dokoknania drobnych kosmetycznych zmian
++ a czasem przemeblowanie cłaościowe, ale z użyciem już napisanego kodu
+  wykorzystując modularyzacje
+
+# 5x Dlaczego
+
+## Dlaczego Streamowanie?
+Z punktu widzenia architektury, ostatnio dużo się w tym temacie zmienia
+
+
+## Dlaczego JS?
+JS jako monopolista, ucieszka w abstrakcje nie załatwia problemu, 
+Specyfika JS jest niedoceniona
+to jezyk do prototypowania !
+
+chciałem pozostać natywny w celu zapewnienia
+Dlaczego chciałem to stworzyć?
+
+
+## Dlaczego używać, do czego
+
+
+# sens obserwacji
++ natura świata
++ ludzkie modele abstrakcyjne
+    + postrzeganie
+    + zastosowanie
+    + problemy
+
+
+
+
+# Sens działania, tworzenia
+użycie, doświadczenie, zrozumienie, ulepszenie
+
+Po dekadzie developmentu, postanowiłem zebrać razem wszystkie przemyślenia
+Od kilku lat notorycznie publiuję kod.
+
+Zmiana następuje beze mnie, ale
+mogę zrozumieć/uchwycić trend wynikający z wielu nieznanych mi czynników
+
+Dlatego ten experyment
+
+stremowanie
+
+
+
+
+# Entuzjasta
+
+Ludzka twarz programisty w społeczeństwie
 # Streamowanie
 
 
