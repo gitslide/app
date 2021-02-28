@@ -9,8 +9,6 @@
 javascript router and (down)loader
 
 ### Streamowanie interfejsów aplikacji
-Strona główna: [www.jloads.com](https://www.jloads.com)
-Blog: [blog.jloads.com](https://blog.jloads.com)
 
 
 # Forma
@@ -132,14 +130,4 @@ Obecna sytuacji
 
 # Inne Rozwiązania
 Jakie są podobne rozwiązania?
-
-
-
-# jLoads
-
-Dokumentacja: [docs.jloads.com](https://docs.jloads.com)
-
-Repozytorium plików: [git.jloads.com](https://git.jloads.com)
-
-Twórca: [entuzjasta.pl](https://www.entuzjasta.pl)
 
