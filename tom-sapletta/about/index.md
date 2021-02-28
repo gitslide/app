@@ -1,16 +1,14 @@
 # Tomasz Sapletta
 
-+ Kim jestem zawodowo i hobbystycznie? 
-
-Programista, która zaczęła programować zawodowo w wieku 27 lat
+Programista, który zaczął programować zawodowo w wieku 27 lat
   
 ### od 2008
 + freelance (nauka poprzez praktyke)
-+ frontend, backend
++ php, frontend, backend
 
 ### od 2012
 + etat (do dziś)
-+ devops, architektura
++ java, backend, devops, architektura
     
 # Edukacja
 
