@@ -1,16 +1,60 @@
-# Przykłady
+# Załadowanie
 
-Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii
+    <script src="//get.jloads.com/jloads.min.js">
+       // Jloads is loading any media and content dynamically
+    </script>
 
-Jakie są podobne rozwiązania
+# ładowanie kaskadowe 
 
-Obecna sytuacji, przykłady użycia
+    jl.file([
+      "//code.jquery.com/jquery-git.min.js",
+      "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+    ]);
 
-Obszar zastosowan
+# Hierarchicze
 
-ograniczenia
+ 
+     jl.file({
+       "//code.jquery.com/jquery-3.5.1.min.js": [
+         "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+         "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+       ]
+     });
+ 
 
-Mozliwosci
+# Złożone ładowanie
+
+    jl.target({
+      "head": [
+        "jquery-3.2.1.min.js",
+        "codemirror/lib/codemirror.js", 
+        ...
+      ],
+      "#forms": [
+        "form/test.html",
+        "css/codemirror.css",
+      ]
+    });
+
+
+# demo
+Proste przeładowanie tła, tekstu, grafiki
++ [get.jloads.com](https://get.jloads.com/)
+
+
+# Formularz
++ [FaaS](https://www.faas.ovh/)
++ [faas-ovh/www: Website](https://github.com/faas-ovh/www)
+
+# Edytor
++ [edit](https://edit.ovh/)
++ [plainedit/flat: Edit is an example on ovh domain](https://github.com/plainedit/flat)
+
+# Edukacja 
+Aplikacja do nauki gramatyki j. niemieckiego
++ [www.gramatyka .de](https://www.gramatyka.de/)
++ [tom-sapletta-com/gramatyka-de: Nauka Gramatyki Niemieckiej poprzez matrycę](https://github.com/tom-sapletta-com/gramatyka-de)
+
 
 
 # Routing

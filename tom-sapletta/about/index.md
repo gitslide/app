@@ -16,7 +16,7 @@ Programista, który zaczął programować zawodowo w wieku 27 lat
 + technik elektryk
 + inżynier automatyki
 
-# Aktualności
+# Obecnie
 
 + Firma Softreck, Estonia
 + Projekty Opensource

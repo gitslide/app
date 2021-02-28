@@ -15,10 +15,11 @@ Za możliwość wzięcia udziału w tej konferencji!
 
 
 # Plan
-1. o prelegencie
-2. o opensource
-3. o projekcie jLoads
-4. o wykorzystaniu jLoads
-5. o planach jLoads
+1. Prelegent
+2. OpenSource
+3. Projekt jLoads
+4. Przykłady
+5. Plany
+6. Podsumowanie
 
 [comment]: <> (6. o współpracy/wsparciu)

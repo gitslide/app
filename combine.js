@@ -129,5 +129,5 @@ function end() {
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
 setTimeout(readSelectedFiles, 500);
-setTimeout(end, 3500);
+setTimeout(end, 6000);
 

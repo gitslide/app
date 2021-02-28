@@ -4,10 +4,11 @@
 + load
 + s
 
-javascript router and (down)loader
++ javascript router and (down)loader
 
-### Streamowanie interfejsów aplikacji
-realizacją idei: continous deployment by streaming
+realizacją idei streamowania interfejsów aplikacji
+
++ continous deployment by streaming
 
 
 # Forma
@@ -67,33 +68,38 @@ eksperyment = nauka przez doświadczenie
 # Inne rozwiązania
 Dlaczgeo nie wykorzystać czegoś gotowego?
 
-### framework
+
+### Framework
 + paczkowanie
 + jednolita forma, monolit
 
-### chmura
+
+### Chmura
 + zależność
 + nienatywne technologie
 
 
 # Frameworki
+czym jLoads różni się sposób działania od popularnych framework-ów?
 
-+ abstrakcja?
-+ specjalizacja?
-+ ładowanie treści, mediów
-+ nastawienie na zbudowanie aplikacji i jej wydanie
-
-# Frameworki
-
-+ jak ładują media?
-+ jak różni się sposób działania od popluarnych frameworków?
-+ One są nastawione na zbudowanie aplikacji i jej wydanie
-
++ nastawienie na zbudowanie aplikacji i jej publikację
++ ładujowanie mediów
++ abstrakcja / specjalizacja?
++ zbudowanie aplikacji i jej wydanie
 
 
 
 # Idea jLoads
 continuous deployment poprzez streaming interfejsu aplikacji z użyciem protokołu HTTP/s
+
+stay native and react faster!
++ Definicja w JSON
++ Natywny Javascript
++ forma biblioteki a nie frameworka  
++ modularyzacja 
++ praca z kodem zastanym
+   
+
 
 ### Protokoły do strumieniowwania
 + UDP
