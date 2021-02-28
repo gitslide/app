@@ -1,6 +1,7 @@
 # Tomasz Sapletta
 
 + Kim jestem zawodowo i hobbystycznie? 
+
 punkt widzenia osoby, która zaczęła programować zawodowo w wieku 27 lat
   
 + od 2008, freelance (edukacja)
