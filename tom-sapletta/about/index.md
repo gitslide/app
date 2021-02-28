@@ -47,21 +47,36 @@ O firmie
 
 
 
-
-## Punkt widzenia
-+ skillset
-+ mindset
-
+## Kim jestem zawodowo i hobbystycznie
 przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
 
+## Skillset (tech)
+
++ frontend (10%), maleje
++ backend (50%), maleje
++ devops (40%), rośnie
+ 
+
+## Mindset
 Każdy z nas ma w różnych tematach różne punkty widzenia:
-+ Entuzjasta
-+ Nauczyciel
-+ Innowator
++ Entuzjasta (30%)
+  + maleje - na rzecz managera
++ Nauczyciel (10%)
+  + rośnie - temu służy ta prezentacja
++ Innowator (60%)
+  + maleje - na rzecz managera i Leadera
++ Leader (5%)
+  + rośnie
++ Manager (5%)
+  + rośnie
 
 
+# Leader & Manager 
 
-Help your engineers become the best version of themselves, grow great teams, have a place people want to work, be the leader people want
+Rośnie kosztem entuzjasty i innowatora
+
+Help your engineers become the best version of themselves, 
+grow great teams, have a place people want to work, be the leader people want
 
 ## Zainteresowania
 
@@ -85,6 +100,9 @@ Help your engineers become the best version of themselves, grow great teams, hav
 
 
 ## Architektura oprogramowania
+    
++ wzorce
++ Camel
 
 ##  Psychologia/Socjologia
   + nauka poprzez uzycie

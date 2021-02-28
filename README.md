@@ -14,6 +14,9 @@ The profile is created for User or Organisation
     
 ## Slides
 + [jLoads - JavaScript media loader and router](https://www.webslides.pl/tom-sapletta/jloads.html#/)
+
+## Events
++ [4Dev](https://www.webslides.pl/event/2021/4developers/index.html)
   
 ## More About project
 + [Landing page: www.webslides.pl](https://www.webslides.pl/)
@@ -24,3 +27,20 @@ The profile is created for User or Organisation
 ## TODO:
 + How to make list of presentation and genarate one pdf file
 
+
+# Usage
+
+
+Build from many files
+    
+    build.bat
+
+Split with prefix to many files
+
+    node split.js
+
+
+Merge many md to one html 
+
+    node merge.js
+    

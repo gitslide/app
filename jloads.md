@@ -4,33 +4,72 @@ Za możliwość wzięcia udziału w tej konferencji
 Jest to dla mnie bardzo ważne doświadczenie bo pierwsze!
 
 
+Coś mocnego na początku
+  
+  Straty, przestraszyć
+    + konsekwencja
+    + strata możliwości wykorzystania
+
++ Pytania???
+  + o framework, czym się różnią?
+  + internet, Http, czy rozumiesz naturę?
+  + 
+
+
++ growth hacking
+
++ powerpoint łapie uwagę
++ zlecić prezentację
+  
++ frontend musi być ładna
+  + kolory
+  + dźwieki
+  + nowe doświadczenia
+  
++ zrobić na jLoads interaktywną prezentację, która będzie pokazywała możliwości
++ 
+
+zamiast robić fotosy, będę pokazywał rezultaty tego jak on działa
+
+
+Interakcja, żeby mieć relacje na linkedin po prezentacji
++ https://business.linkedin.com/sales-solutions/social-selling/the-social-selling-index-ssi
+
+  
+
 ## Jak zrobić zaangażowanie?
 
 - online
 - pierwsza konferencja
 - pierwsza publiczna prezentacja na żywo
 
-Opis sytuacji
-+ mamy dziś trochę do zrobienia
 
-Kara
+
+## Opis sytuacji
++ mamy dziś trochę do zrobienia
++ zrobiłem kilkanaście ticketów
+
+## Uczucie straty
++ czas
 + deadline jest na 45 MInut, jak sie nie wyrobimy to nie dojdziemy do konca
-a tam jest nagroda do wygrania
+  a tam jest nagroda do wygrania
+
+----------
+
+
+na sam koniec
   
 Nagroda
-+ ksiazka dla tych co zrobia pierwszy ticket,
-kazdy dostanie donate do wybranej ksiazki 70%
-  
++ Donate (kwotew niespodzianka) dla 10 pierwszych co zrobia pierwsze tickety,
+każdy kolejny poza dostanie donate (pocieszenia) albo ksiązka
 
 - napisac do ksiegarni, ktora sie zgodzi na takie rozwiazanie
-bedzie to polegalo na tym, ze kazdy kto zrobi commit/push (kodu/opisu) na jLoads
-  
-dostanie rabat na jedną książkę, 
+  bedzie to polegalo na tym, ze kazdy kto zrobi commit/push (kodu/opisu) na jLoads
+
+dostanie rabat na jedną książkę,
 sponsorwany przez firme Softreck
-  
-  
 
-
+  
 ## 
 
 + O autorze
@@ -193,7 +232,8 @@ Help your engineers become the best version of themselves:
 + skillset
 + mindset
 
-przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
+## mindset 
+Przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
 
 Każdy z nas ma w różnych tematach różne punkty widzenia:
 + Entuzjasta
@@ -289,9 +329,14 @@ stremowanie
 
 
 
-# Entuzjasta
+# Internet
 
-Ludzka twarz programisty w społeczeństwie
+
+Software devlopment
+
++ HTTP
++ protokoły
+
 # Streamowanie
 
 

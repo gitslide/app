@@ -39,9 +39,25 @@ Przyszłe rozwiązania, planowane implementacje
 
 
 
-# Temat Przentacji
 
-## jLoads Czyli co?
+
+# jLoads
+
++ www.jloads.com
++ docs.jloads.com
+  + get.jloads.com
+  + git.jloads.com
++ blog.jloads.com
++ donate.jloads.com
+
+# Autor 
+Entuzjasta Technologii
++ www.entuzjasta.pl
+  + domeny
+  + 
+
+
+# jLoads Czyli co?
 
 Forma
 + biblioteka
@@ -58,12 +74,12 @@ Dystrybucja
 
 # Cel Projektu
 
+## Eksperyment 
 Eksperyment jako inspiracja do odrywania czegoś poza
 horyzentom obecnych trendó.
 Uchwycenie teczhnicznej natury www
 
-
-
+## Pierwszy krok
 Pierwszy zamysł był taki
 aby możliwe było uruchomienie na tym samym kodzie
 aplikcji w różnym środowisku, różnej domenie
@@ -87,6 +103,10 @@ to jezyk do prototypowania !
 chciałem pozostać natywny w celu zapewnienia
 Dlaczego chciałem to stworzyć?
 
+## DLaczgeo nie wykorzystać czegoś gotowego?
+
+
+##
 
 ## Dlaczego używać, do czego
 
@@ -116,6 +136,38 @@ Projektowanie protokół sieciowy do obsługi mediów strumieniowych rodzi wiele
 + RTSP
 + RTCP
 + RTP
+
+
+## Routing
+jak działa
+
+przyklady wykorzystania
+
+[examples](examples/index.md)
+[contribution](contribution/index.md)
+
+
+## Frameworki
+
+jak ładują kontent
+
+jak różnic się sposób działania od popluarnych frameworków
+
+One są nastawione na zbudowanie aplikacji i jej wydanie
+
+jLoads jest realizacją idei:
+conitnous deployment poprzez streaming
+
+## Na koniec
+
+## Sceptyczne
+każdy z Was Frontend-Developerów może mi powiedzieć, że może takie narzędzie stworzyć sam, że nic w tym nadzwyczajnego.
+
+## 
+jLoads jest tylko jednym elementem ekosystemu, który ma wspierać 
+
+Dlateo postanowiłem przygotować na koniec 
+
 
 
 

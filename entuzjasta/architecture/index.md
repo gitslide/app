@@ -1,8 +1,8 @@
-## Architektura oprogramowania
+# Architektura oprogramowania
 
 Architektura jest (dla mnie) tworzeniem kontekstów
 
-## środowisko
+# środowisko
  
   + zakres obszaru występowania elementów
     + elementy występujące na określonym obszarze
@@ -13,12 +13,12 @@ Architektura jest (dla mnie) tworzeniem kontekstów
 
 
 
-## System elementów  
+# System elementów  
 + Specyfikacja
   + osadzanie elementów w konkretnym miejscu, czasie, roli i relacji
 
 
-## Architektura
+# Architektura
 Architektura komputera oznacza w informatyce technicznej zbiór zasad i metod opisujących funkcjonalność, organizację i implementację komputerów.
 [Architektura komputera – Wikipedia](https://pl.wikipedia.org/wiki/Architektura_komputera)
 

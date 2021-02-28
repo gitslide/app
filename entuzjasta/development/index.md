@@ -2,7 +2,8 @@
 + skillset
 + mindset
 
-przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
+## mindset 
+Przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
 
 Każdy z nas ma w różnych tematach różne punkty widzenia:
 + Entuzjasta
@@ -12,18 +13,21 @@ Każdy z nas ma w różnych tematach różne punkty widzenia:
 
 ## Moje podejście do jLoads 
 
-## @Entuzjasta (30%)
+## @Entuzjasta (30%) 
++ idea i co to dla mnie znaczy
 Cieszy sie wszystkim co nowe w danym obszarze tematycznym
 dzieli się danymi technicznymi i sposobem użycia
 Skupienie na innowacyjności
 
 ## @Nauczyciel (10%)
++ rozumienie zasady działania
 Skupienie na definicji, logice, znaczeniu
 Czasem to dalszy etap entuzjazmu
 stara się wytłumaczyć jak można tego używać
 
 
 ## @Innowator, Twórca, Developer (60%)
++ lepsza wersja i stojące za tym korzyści/zmiany
 Skupienie na miejscu w przestrzeni, jej wykorzystaniu, brakach, możliwościach
 Mając informacje o tym stara się to zmienić lub zainicjowac zmianę
 
@@ -36,10 +40,15 @@ Mając informacje o tym stara się to zmienić lub zainicjowac zmianę
 [comment]: <> (![modelina.png]&#40;modelina.png&#41;)
 
 
-# Cel Projektu
+# Cel Projektów Opensource
+
+Wyjście poza prozę życia, zobaczyć piękniejszy , doskonalszy świat.
+Stworzenie abstrakcji by opowiedzieć a potem zrealziwoać piękną prostszą i doskonalszą opowiedść.
+
+
 
 Eksperyment jako inspiracja do odrywania czegoś poza
-horyzentom obecnych trendó.
+horyzentom obecnych trendów.
 Uchwycenie teczhnicznej natury www
 + Skupienie sie na tym co zmienne, aby 
   umieć odnaleźć naturę, zrozumieć i wykorzystać jako funkcję

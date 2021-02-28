@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>jLoads - JavaScript media loader and router </title>
+
+    <link rel="stylesheet" href="//static.webslides.pl/dist/reveal.css">
+    <link rel="stylesheet" href="//static.webslides.pl/dist/theme/white.css" id="theme">
+
+    <link rel="stylesheet" href="//static.webslides.pl/plugin/highlight/monokai.css">
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <div class="slides">
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Podziękowanie
+
+                Za możliwość wzięcia udziału w tej konferencji!
+
+                + pierwsza wystąpienie
+                + pierwsza prezentacja projektu
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Dla kogo?
+
+                + Polskojęzyczni odbiorcy
+                + Frontend Developerzy
+                + Full-Stack Developerzy
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Kto z Was tak ma ?
+                + robicie własne eksperymenty
+                + trwające miesiącami
+                + jesteście otwarci na krytykę, ale nawet nikt nie jest zainteresowany hejtem
+                + robicie dalej, nowa myśl nabrała kształtu, działa
+
+                + i co dalej?
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Brawo MY
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Software Development to stan umysłu
+                + piszemy kod,
+                + uczymy się pisać bardziej zrozumiale
+                + robimy błędy,
+                + uczymy się efektywniej znajdować rozwiązania
+                + dzielimy się,
+                + tworzymy otwarte rozwiązania i darmowe
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Zróbmy hałas!
+                + Poklaszczmy sobie nawzajem!
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Opensource
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # otwarty != darmowy
+
+                Z reguły Opensource jest darmowy dla użytkownika - osoby używającej kodu
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Koszt pracy developer
+                + kosztem zysków,
+                + jakie mógłby w tym czasie osiągnąć
+                + kosztem czasu
+                + jaki mógłby spędzić z innymi (osobami, projektami)
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Monetyzacja kodu
+                + W modelu SaaS użytkownik chętniej zapłaci za koszt, który i tak musiałby ponieść
+                + Darowizny, od entuzjastów, sponsorów, reklamodawców, partnerów
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Jloads
+
+                javascript router and (down)loader
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # opensource
+                + otwarte i darmowe oprgramowanie
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # niezależna biblioteka
+                + bez zależności od innych projektów
+                + biblioteka nie narzuca formy, pozostawia wolność
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # natywny
+                + javascript, bash scripts
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Poczuj się jak ...
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # ... Makłowicz Developmentu
+                + codziennie nowa aplikacja
+                + w różnych warunkach z różnymi narzędziami
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                #
+                Temat
+
+                Interface
+
+                Streamowanie
+
+                Funkcje
+
+                Sposob uzycia
+
+                Korzysci
+
+
+                Cel powstania
+
+                Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii
+
+                Jakie są podobne rozwiązania
+
+                Obecna sytuacji, przykłady użycia
+
+                Obszar zastosowan
+
+                ograniczenia
+
+                Mozliwosci
+
+
+                Historia powstania
+
+                Problemy
+
+                Możliwości
+
+                Przyszłe rozwiązania, planowane implementacje
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # jLoads
+
+                + www.jloads.com
+                + docs.jloads.com
+                + get.jloads.com
+                + git.jloads.com
+                + blog.jloads.com
+                + donate.jloads.com
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Autor
+                Entuzjasta Technologii
+                + www.entuzjasta.pl
+                + domeny
+                +
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # jLoads Czyli co?
+
+                Forma
+                + biblioteka
+
+                W zależności od użycia:
+                + routowanie mediów
+                + proxy
+
+                Dystrybucja
+                + paczka npm
+                + plik github
+                + ...
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Cel Projektu
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Eksperyment
+                Eksperyment jako inspiracja do odrywania czegoś poza
+                horyzentom obecnych trendó.
+                Uchwycenie teczhnicznej natury www
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Pierwszy krok
+                Pierwszy zamysł był taki
+                aby możliwe było uruchomienie na tym samym kodzie
+                aplikcji w różnym środowisku, różnej domenie
+
+                + refaktorywzacja -> reużycie
+                + przejmowanie po kimś projektów, chęć dokoknania drobnych kosmetycznych zmian
+                + a czasem przemeblowanie cłaościowe, ale z użyciem już napisanego kodu
+                wykorzystując modularyzacje
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # 5x Dlaczego
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Dlaczego Streamowanie?
+                Z punktu widzenia architektury, ostatnio dużo się w tym temacie zmienia
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Dlaczego JS?
+                JS jako monopolista, ucieszka w abstrakcje nie załatwia problemu,
+                Specyfika JS jest niedoceniona
+                to jezyk do prototypowania !
+
+                chciałem pozostać natywny w celu zapewnienia
+                Dlaczego chciałem to stworzyć?
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # DLaczgeo nie wykorzystać czegoś gotowego?
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                #
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Dlaczego używać, do czego
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # sens obserwacji
+                + natura świata
+                + ludzkie modele abstrakcyjne
+                + postrzeganie
+                + zastosowanie
+                + problemy
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Media strumieniowe
+
+                technika dostarczania informacji multimedialnej przez Internet,
+                od dostawcy transmisji strumieniowej do użytkownika, w sposób nieprzerywany.
+
+                Projektowanie protokół sieciowy do obsługi mediów strumieniowych rodzi wiele problemów.
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Protokoły strumieniowe
+
+                + UDP
+                + RTSP
+                + RTCP
+                + RTP
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Routing
+                jak działa
+
+                przyklady wykorzystania
+
+                [examples](examples/index.md)
+                [contribution](contribution/index.md)
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Frameworki
+
+                jak ładują kontent
+
+                jak różnic się sposób działania od popluarnych frameworków
+
+                One są nastawione na zbudowanie aplikacji i jej wydanie
+
+                jLoads jest realizacją idei:
+                conitnous deployment poprzez streaming
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Na koniec
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Sceptyczne
+                każdy z Was Frontend-Developerów może mi powiedzieć, że może takie narzędzie stworzyć sam, że nic w tym nadzwyczajnego.
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                #
+                jLoads jest tylko jednym elementem ekosystemu, który ma wspierać
+
+                Dlateo postanowiłem przygotować na koniec
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Współpraca przy rozwoju projektu
+
+                Przyszłe rozwiązania, planowane implementacje
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Cel Projektu
+
+                Eksperyment jako inspiracja do odrywania czegoś poza
+                horyzentom obecnych trendó.
+                Uchwycenie teczhnicznej natury www
+
+
+                Pierwszy zamysł był taki
+                aby możliwe było uruchomienie na tym samym kodzie
+                aplikcji w różnym środowisku, różnej domenie
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Dlaczego JS?
+                JS jako monopolista, ucieszka w abstrakcje nie załatwia problemu,
+                Specyfika JS jest niedoceniona
+                to jezyk do prototypowania !
+
+                chciałem pozostać natywny w celu zapewnienia
+                Dlaczego chciałem to stworzyć?
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # TODO
+                + Możliwości
+                + zadania
+                przykład
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Ticket
+                Problemy
+                url
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Changelog
+                Historia powstania
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                #  Forma
+                + biblioteka
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Użycie
+                W zależności od użycia:
+                + routowanie mediów
+                + proxy
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Dystrybucja
+                + paczka npm
+                + plik github
+                + ...
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Techniki, wzorce
+
+                + refaktoryzacja -> reużycie
+                + przejmowanie po kimś projektów, chęć dokoknania drobnych kosmetycznych zmian
+                + a czasem przemeblowanie cłaościowe, ale z użyciem już napisanego kodu
+                wykorzystując modularyzacje
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # DevOPS
+
+                + jak działają te skrypty
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                # Tools
+
+
+            </script>
+        </section>
+        <section data-markdown>
+            <script type="text/template">
+                <!-- .slide: data-background="#FFFFFF" -->
+                #Cel powstania
+
+                Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii
+
+                Jakie są podobne rozwiązania
+
+                Obecna sytuacji, przykłady użycia
+
+                Obszar zastosowan
+
+                ograniczenia
+
+                Mozliwosci
+
+
+            </script>
+        </section>
+
+    </div>
+</div>
+
+<script src="//static.webslides.pl/dist/reveal.js"></script>
+<script src="//static.webslides.pl/plugin/markdown/markdown.js"></script>
+<script src="//static.webslides.pl/plugin/highlight/highlight.js"></script>
+<script src="//static.webslides.pl/plugin/notes/notes.js"></script>
+
+<script>
+
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+
+</script>
+
+</body>
+</html>

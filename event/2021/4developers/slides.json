@@ -1,0 +1,12 @@
+{
+  "slides": [
+    "event/2021/4developers/index.md",
+    "tom-sapletta/contribution/index.md",
+    "jloads/about/index.md",
+    "jloads/contribution/index.md",
+    "jloads/examples/index.md"
+  ],
+  "output": "./event/2021/4developers/index.html",
+  "title": "jLoads - JavaScript media loader and router",
+  "url": "https://www.webslides.pl/event/2021/4developers/index.html"
+}
