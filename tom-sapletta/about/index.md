@@ -23,9 +23,9 @@ punkt widzenia osoby, która zaczęła programować zawodowo w wieku 27 lat
 
 
 # Zainteresowania
-+ Lean Management
-+ Software development
-+ DevOps
++ Hardware Development
++ Software Development
++ Lean Management, DevOps
 + Architektura oprogramowania
 + Psychologia
 + Socjologia
@@ -34,7 +34,7 @@ punkt widzenia osoby, która zaczęła programować zawodowo w wieku 27 lat
 
 # Dlaczego programowanie?
 
-+ tworzenie abstrakcyjnych modeli rzeczywistosci
++ tworzenie i testowanie modeli
 + testowanie i proptotypowanie modeli
 + poprzez doświadczanie - uczenie sie na modelach
 
