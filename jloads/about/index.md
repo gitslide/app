@@ -1,13 +1,3 @@
-# jLoads
-
-Strona główna: [www.jloads.com](https://www.jloads.com)
-
-Dokumentacja: [docs.jloads.com](https://docs.jloads.com)
-
-Repozytorium plików: [git.jloads.com](https://git.jloads.com)
-
-Twórca:[entuzjasta.pl](https://www.entuzjasta.pl)
-
 # Nazwa 
 
 ## j load s
@@ -17,6 +7,10 @@ Twórca:[entuzjasta.pl](https://www.entuzjasta.pl)
 + s
 
 javascript router and (down)loader
+
+### Streamowanie interfejsów aplikacji
+Strona główna: [www.jloads.com](https://www.jloads.com)
+Blog: [blog.jloads.com](https://blog.jloads.com)
 
 
 # Forma
@@ -127,21 +121,6 @@ Technologiczne powody powstania
 ### Model dystrybucji
 Coraz bardziej wyspecjalizowane i spersonalizowane usługi
 
-# Streamowanie interfejsów aplikacji
-Z punktu widzenia architektury, ostatnio dużo się w tym temacie zmienia
-
-
-
-# Routing
-
-jak działa
-
-przyklady wykorzystania
-
-[examples](examples/index.md)
-[contribution](contribution/index.md)
-
-
 
 # Zastosowanie
 Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii?
@@ -150,17 +129,17 @@ Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii?
 ## Dlaczego używać, do czego
 Obecna sytuacji
 
-przykłady użycia
-
-
-# Ograniczenia
-
-test
 
 # Inne Rozwiązania
-Jakie są podobne rozwiązania
+Jakie są podobne rozwiązania?
 
 
 
+# jLoads
 
+Dokumentacja: [docs.jloads.com](https://docs.jloads.com)
+
+Repozytorium plików: [git.jloads.com](https://git.jloads.com)
+
+Twórca: [entuzjasta.pl](https://www.entuzjasta.pl)
 

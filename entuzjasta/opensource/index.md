@@ -1,4 +1,5 @@
-# Kto z Was tak ma?
+# OpenSource
+Kto z Was tak ma?
 
 ### prace trwające miesiącami
 odkrywacie nowe możliwości
@@ -47,8 +48,8 @@ koszt czasu spędzonego z innymi
 
 ## Model SaaS
 
-użytkownik chętniej zapłaci za koszt, który i tak musiałby ponieść
+Użytkownik chętniej zapłaci za koszt utrzymania aplikacji niż jej wykonanie i wdrażanie
 
 ## Partnerzy
 
-Darowizny, od entuzjastów, sponsorów, reklamodawców
+Darowizny od entuzjastów, sponsorów, reklamodawców

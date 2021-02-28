@@ -40,6 +40,7 @@ punkt widzenia osoby, która zaczęła programować zawodowo w wieku 27 lat
 
 
 # Skillset 
+
 ### technologie
 
 + Frontend (10%), maleje
@@ -51,30 +52,28 @@ punkt widzenia osoby, która zaczęła programować zawodowo w wieku 27 lat
 
 [comment]: <> (Każdy z nas ma w różnych tematach różne punkty widzenia:)
 
-+ Entuzjasta (30%)
++ Entuzjasta (30%), maleje - na rzecz Managera
 
-maleje - na rzecz managera
++ Nauczyciel (10%), rośnie - temu służy ta prezentacja
 
-+ Nauczyciel (10%)
++ Innowator (60%), maleje - na rzecz managera i Leadera
 
-rośnie - temu służy ta prezentacja
-
-+ Innowator (60%)
-
-maleje - na rzecz managera i Leadera
-
-+ Leader & Manager (10%)
-
-rośnie
++ Leader & Manager (10%), rośnie
 
 
 # Kierunek rozwoju
-
-### Leader & Manager 
-
-Wzrost kosztem zaangażowania jako entuzjasty i innowatora
-
-+ Help your engineers become the best version of themselves, 
+Help your engineers become the best version of themselves,
 grow great teams, have a place people want to work, be the leader people want
+
+### Leader & Manager
+
+zmniejszenie zaangażowania:
++ jako entuzjasty i innowatora
+
+
+zwiększenie zaangażowania:
++ w zarządzaniu projektami
+
+
 
 
