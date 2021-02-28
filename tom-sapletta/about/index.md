@@ -4,9 +4,12 @@
 
 punkt widzenia osoby, która zaczęła programować zawodowo w wieku 27 lat
   
-+ od 2008, freelance (edukacja)
-+ od 2012, etat (do dziś)
+od 2008, freelance (nauka poprzez praktyke)
++ frontend, backend
 
+od 2012, etat (do dziś)
++ devops, architektura
+    
 # Edukacja
 
 + elektromonter
