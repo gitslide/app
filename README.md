@@ -3,6 +3,7 @@
 
 ## WebSlides 
 from Markdown to Html and PDF
+[DEMO WebSlides Page](https://git.webslides.pl/)
 
 ## Profiles 
 The profile is created for User or Organisation
