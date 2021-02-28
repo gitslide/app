@@ -1,6 +1,4 @@
-# Nazwa 
-
-## j load s
+# j load s
 
 + j 
 + load
@@ -9,6 +7,7 @@
 javascript router and (down)loader
 
 ### Streamowanie interfejsów aplikacji
+realizacją idei: continous deployment by streaming
 
 
 # Forma
@@ -83,6 +82,14 @@ Dlaczgeo nie wykorzystać czegoś gotowego?
 + specjalizacja?
 + ładowanie treści, mediów
 + nastawienie na zbudowanie aplikacji i jej wydanie
+
+# Frameworki
+
++ jak ładują media?
++ jak różni się sposób działania od popluarnych frameworków?
++ One są nastawione na zbudowanie aplikacji i jej wydanie
+
+
 
 
 # Idea jLoads
