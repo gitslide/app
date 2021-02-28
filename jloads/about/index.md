@@ -1,144 +1,137 @@
-
-Temat
-
-Interface
-
-Streamowanie
-
-Funkcje
-
-Sposob uzycia
-
-Korzysci
-
-
-
-Cel powstania
-
-Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii
-
-Jakie są podobne rozwiązania
-
-Obecna sytuacji, przykłady użycia
-
-Obszar zastosowan
-
-ograniczenia
-
-Mozliwosci
-
-
-
-Historia powstania
-
-Problemy
-
-Możliwości
-
-Przyszłe rozwiązania, planowane implementacje
-
-
-
-
-
 # jLoads
 
-+ www.jloads.com
-+ docs.jloads.com
-  + get.jloads.com
-  + git.jloads.com
-+ blog.jloads.com
-+ donate.jloads.com
+Strona główna: [www.jloads.com](https://www.jloads.com)
 
-# Autor 
-Entuzjasta Technologii
-+ www.entuzjasta.pl
-  + domeny
-  + 
+Dokumentacja: [docs.jloads.com](https://docs.jloads.com)
+
+Repozytorium plików: [git.jloads.com](https://git.jloads.com)
+
+Twórca:[entuzjasta.pl](https://www.entuzjasta.pl)
+
+# Nazwa 
+
+## j load s
+
++ j 
++ load
++ s
+
+javascript router and (down)loader
 
 
-# jLoads Czyli co?
+# Forma
 
-Forma
-+ biblioteka
+### biblioteka
 
-W zależności od użycia:
-+ routowanie mediów
-+ proxy
++ bez zależności od innych projektów
++ biblioteka nie narzuca formy, pozostawia wolność
 
-Dystrybucja
-+ paczka npm
-+ plik github
-+ ...
+### natywne technologie
 
++ javascript
++ bash scripts
+
+
+# Język
+
+### JavaScript
++ monopolista
++ modularyzowanie wszystkiego na frontendzie
++ Specyfika JS jest niedoceniona to jezyk do prototypowania !
+
+# Dystrybucja
+
++ Otwarte i darmowe oprogramowanie 
++ Wersja do pobrania: [get.jloads.com/jloads.js](https://get.jloads.com/jloads.js)
++ Paczka npm
+
+
+# Poczuj się jak ...
+
+## ... Makłowicz Developmentu
+
++ codziennie nowe aplikacje, MVP
++ w różnych warunkach z różnymi narzędziami
++ środowisko lokalne, alternatywa dla chmur
++ offline
++ Interfejsy aplikacji dla IoT
 
 # Cel Projektu
 
-## Eksperyment 
-Eksperyment jako inspiracja do odrywania czegoś poza
-horyzentom obecnych trendó.
-Uchwycenie teczhnicznej natury www
+Pierwszy zamysł był taki, by dostosować gotowe projekty
++ wsparcie aplikacji z legacy code
++ zgodność na dekady -> natywne technologie 
++ praca na rożnych środowiskach
++ praca z wieloma domenami, adresami, portami
 
-## Pierwszy krok
-Pierwszy zamysł był taki
-aby możliwe było uruchomienie na tym samym kodzie
-aplikcji w różnym środowisku, różnej domenie
+  
+# Eksperyment
 
-+ refaktorywzacja -> reużycie
-+ przejmowanie po kimś projektów, chęć dokoknania drobnych kosmetycznych zmian
-+ a czasem przemeblowanie cłaościowe, ale z użyciem już napisanego kodu
-  wykorzystując modularyzacje
+Uchwycenie technicznej natury WWW, sprawdzenie granic w kontekście użycia. 
+inspiracja do wyjścia poza horyzont trendów
++ eksperyment = nauka przez doświadczenie 
 
-# 5x Dlaczego
+# Inne rozwiązania
+Dlaczgeo nie wykorzystać czegoś gotowego?
 
-## Dlaczego Streamowanie?
-Z punktu widzenia architektury, ostatnio dużo się w tym temacie zmienia
+### framework
++ paczkowanie
++ jednolita forma, monolit
 
-
-## Dlaczego JS?
-JS jako monopolista, ucieszka w abstrakcje nie załatwia problemu, 
-Specyfika JS jest niedoceniona
-to jezyk do prototypowania !
-
-chciałem pozostać natywny w celu zapewnienia
-Dlaczego chciałem to stworzyć?
-
-## DLaczgeo nie wykorzystać czegoś gotowego?
+### chmura
++ zależność
++ nienatywne technologie
 
 
-##
+# Frameworki
 
-## Dlaczego używać, do czego
-
-
-# sens obserwacji
-+ natura świata
-+ ludzkie modele abstrakcyjne
-    + postrzeganie
-    + zastosowanie
-    + problemy
++ abstrakcja?
++ specjalizacja?
++ ładowanie treści, mediów
++ nastawienie na zbudowanie aplikacji i jej wydanie
 
 
+# Idea jLoads
+continuous deployment poprzez streaming interfejsu aplikacji z użyciem protokołu HTTP/s
 
-
-## Media strumieniowe
-
-technika dostarczania informacji multimedialnej przez Internet,
-od dostawcy transmisji strumieniowej do użytkownika, w sposób nieprzerywany.
-
-Projektowanie protokół sieciowy do obsługi mediów strumieniowych rodzi wiele problemów.
-
-
-
-## Protokoły strumieniowe
-
+### Protokoły do strumieniowwania
 + UDP
 + RTSP
 + RTCP
 + RTP
 
 
-## Routing
+# Możliwości
+
+### refaktoryzacja 
+reużycie -> modularyzacja
+
+### przejmowanie projektów
+drobne kosmetyczne zmiany
+
+### modularyzacja
+z użyciem już napisanego kodu
+
+
+
+# Tło powstania
+
+Technologiczne powody powstania
+
+### Kultura pracy
++ Lean management
++ DevOPS
+
+### Model dystrybucji
+Coraz bardziej wyspecjalizowane i spersonalizowane usługi
+
+# Streamowanie interfejsów aplikacji
+Z punktu widzenia architektury, ostatnio dużo się w tym temacie zmienia
+
+
+
+# Routing
+
 jak działa
 
 przyklady wykorzystania
@@ -147,26 +140,24 @@ przyklady wykorzystania
 [contribution](contribution/index.md)
 
 
-## Frameworki
 
-jak ładują kontent
+# Zastosowanie
+Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii?
 
-jak różnic się sposób działania od popluarnych frameworków
 
-One są nastawione na zbudowanie aplikacji i jej wydanie
+## Dlaczego używać, do czego
+Obecna sytuacji
 
-jLoads jest realizacją idei:
-conitnous deployment poprzez streaming
+przykłady użycia
 
-## Na koniec
 
-## Sceptyczne
-każdy z Was Frontend-Developerów może mi powiedzieć, że może takie narzędzie stworzyć sam, że nic w tym nadzwyczajnego.
+# Ograniczenia
 
-## 
-jLoads jest tylko jednym elementem ekosystemu, który ma wspierać 
+test
 
-Dlateo postanowiłem przygotować na koniec 
+# Inne Rozwiązania
+Jakie są podobne rozwiązania
+
 
 
 

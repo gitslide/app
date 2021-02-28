@@ -1,6 +1,26 @@
 # Streamowanie
 
 
+
+## Media strumieniowe
+
+technika dostarczania informacji multimedialnej przez Internet, od dostawcy transmisji strumieniowej do użytkownika, w
+sposób nieprzerywany.
+
+Projektowanie protokół sieciowy do obsługi mediów strumieniowych rodzi wiele problemów.
+
+## Protokoły strumieniowe
+
++ UDP
++ RTSP
++ RTCP
++ RTP
+
+## Dziękuję
+
++ [blog.jloads.com](https://blog.jloads.com)
++ [donate.jloads.com](https://donate.jloads.com)
+
 # Przykład 
 
 ## streamowanie informacji w mediach

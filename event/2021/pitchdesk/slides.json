@@ -1,12 +1,12 @@
 {
   "slides": [
-    "event/2021/4developers/start.md",
-    "tom-sapletta/about/index.md",
+    "event/2021/pitchesk/index.md",
     "entuzjasta/opensource/index.md",
     "jloads/about/index.md",
+    "jloads/contribution/index.md",
     "jloads/examples/index.md",
     "jloads/future/index.md",
-    "event/2021/4developers/end.md"
+    "tom-sapletta/contribution/index.md"
   ],
   "output": "./event/2021/4developers/index.html",
   "title": "jLoads - JavaScript media loader and router",

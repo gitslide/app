@@ -1,8 +1,18 @@
-## Punkt widzenia
+# sens obserwacji
+
++ natura świata
++ ludzkie modele abstrakcyjne
+  + postrzeganie
+  + zastosowanie
+  + problemy
+
+
+# Punkt widzenia
 + skillset
 + mindset
 
-## mindset 
+
+# mindset 
 Przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
 
 Każdy z nas ma w różnych tematach różne punkty widzenia:
@@ -11,7 +21,7 @@ Każdy z nas ma w różnych tematach różne punkty widzenia:
 + Innowator
 
 
-## Moje podejście do jLoads 
+# Moje podejście do jLoads 
 
 ## @Entuzjasta (30%) 
 + idea i co to dla mnie znaczy
@@ -46,39 +56,13 @@ Wyjście poza prozę życia, zobaczyć piękniejszy , doskonalszy świat.
 Stworzenie abstrakcji by opowiedzieć a potem zrealziwoać piękną prostszą i doskonalszą opowiedść.
 
 
+#  Psychologia/Socjologia
 
-Eksperyment jako inspiracja do odrywania czegoś poza
-horyzentom obecnych trendów.
-Uchwycenie teczhnicznej natury www
-+ Skupienie sie na tym co zmienne, aby 
-  umieć odnaleźć naturę, zrozumieć i wykorzystać jako funkcję
++ nauka poprzez użycie
++ działanie
++ "The best way to predict your future is to create it"
 
-
-Pierwszy zamysł był taki
-aby możliwe było uruchomienie na tym samym kodzie
-aplikcji w różnym środowisku, różnej domenie
-
-+ refaktorywzacja -> reużycie
-+ przejmowanie po kimś projektów, chęć dokoknania drobnych kosmetycznych zmian
-+ a czasem przemeblowanie cłaościowe, ale z użyciem już napisanego kodu
-  wykorzystując modularyzacje
-
-# 5x Dlaczego
-
-## Dlaczego Streamowanie?
-Z punktu widzenia architektury, ostatnio dużo się w tym temacie zmienia
-
-
-## Dlaczego JS?
-JS jako monopolista, ucieszka w abstrakcje nie załatwia problemu, 
-Specyfika JS jest niedoceniona
-to jezyk do prototypowania !
-
-chciałem pozostać natywny w celu zapewnienia
-Dlaczego chciałem to stworzyć?
-
-
-## Dlaczego używać, do czego
++ "Nie chcesz po dobroci? to Ludzie Cię nauczą ..."
 
 
 # sens obserwacji
@@ -105,5 +89,51 @@ Dlatego ten experyment
 stremowanie
 
 
+
+# Doświadczenie
+
+Empiryzm, nauka przez doświadczanie
+Wiedza (o doświadczeniu w sprawdzeniu prawdziwości teorii/informacji)
+
+    knwowledge = null;
+    
+    function experience(array[] informations, knowledge) {
+      
+      informations.forEach(sentence => { 
+        
+        knowledge.add({
+          sentence: sentence,
+          result: sentence === true,
+          context: knowledge
+        });
+      });
+      return knowledge;
+    }
+
+    knowledge = experience( information, knowledge );
+
+## Eksperyment
+
+
+
+# Proces tworzenia innowacji determinuje nauke
++ użycie, doświadczenie, zrozumienie, ulepszenie
+
+Po dekadzie developmentu, postanowiłem zebrać razem wszystkie przemyślenia
+Od kilku lat notorycznie publiuję kod.
+
+Zmiana następuje beze mnie, ale
+mogę zrozumieć/uchwycić trend wynikający z wielu nieznanych mi czynników
+
+Dlatego ten experyment
+
+Środowisko i jego wpływ
+
+Hobby
+
+Kariera
+
+
+O firmie
 
 

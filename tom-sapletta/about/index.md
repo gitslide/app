@@ -1,150 +1,81 @@
 # O autorze
 
-# Doświadczenie
 
-Empiryzm, nauka przez doświadczanie
-Wiedza (o doświadczeniu w sprawdzeniu prawdziwości teorii/informacji)
-    
-    knwowledge = null;
-    
-    function experience(byte[] information) {
-      for(n=0; information[no]no++;){
-        result[no] = information[no] === true;
-        knowledge.add({
-          information: information[no],
-          result: result[no],
-          kontekst: ....
-        });
-      }
-      return knowledge;
-    }
+### Kim jestem zawodowo i hobbystycznie
+punkt widzenia osoby, która: 
 
-    knowledge = experience( information );
+zaczęła programować zawodowo w wieku 27 lat
++ od 2008, freelance (edukacja)
++ od 2012, etat (do dziś)
 
-## Eksperyment
+# Edukacja
 
++ elektromonter
++ technik elektryk
++ inżynier automatyki
+
+# Aktualności
+
++ Firma Softreck, Estonia
++ Projekty Opensource
++ Handel domenami globalnymi
++ Pełny Etat, Niemcy, zdalnie 
++ Rodzina, Niemcy
 
 
-# Proces tworzenia innowacji determinuje nauke
-+ użycie, doświadczenie, zrozumienie, ulepszenie
-
-Po dekadzie developmentu, postanowiłem zebrać razem wszystkie przemyślenia
-Od kilku lat notorycznie publiuję kod.
-
-Zmiana następuje beze mnie, ale
-mogę zrozumieć/uchwycić trend wynikający z wielu nieznanych mi czynników
-
-Dlatego ten experyment
-
-Środowisko i jego wpływ
-
-Hobby
-
-Kariera
-
-
-O firmie
-
-
-
-## Kim jestem zawodowo i hobbystycznie
-przedstawienie punktu widzenia osoby, która nie jest rasowym programistą.
-
-## Skillset (tech)
-
-+ frontend (10%), maleje
-+ backend (50%), maleje
-+ devops (40%), rośnie
- 
-
-## Mindset
-Każdy z nas ma w różnych tematach różne punkty widzenia:
-+ Entuzjasta (30%)
-  + maleje - na rzecz managera
-+ Nauczyciel (10%)
-  + rośnie - temu służy ta prezentacja
-+ Innowator (60%)
-  + maleje - na rzecz managera i Leadera
-+ Leader (5%)
-  + rośnie
-+ Manager (5%)
-  + rośnie
-
-
-# Leader & Manager 
-
-Rośnie kosztem entuzjasty i innowatora
-
-Help your engineers become the best version of themselves, 
-grow great teams, have a place people want to work, be the leader people want
-
-## Zainteresowania
-
+# Zainteresowania
++ Lean Management
 + Software development
 + DevOps
 + Architektura oprogramowania
-+ Psychologia/Socjologia
-  
-
-## Software development
-  + tworzenie abstrakcyjnych modeli rzeczywistosci
-  + testowanie i proptotypowanie modeli
-  + poprzez doświadczanie - uczenie sie na modelach
-
-## DevOps  
-  + automatyzacja
-  + optymalizacja
-  + Lean Management
-    + skomplikowane ale procesy 
-    + proste zasady obsługi
++ Psychologia
++ Socjologia
++ Filozofia
 
 
-## Architektura oprogramowania
-    
-+ wzorce
-+ Camel
+# Dlaczego programowanie?
 
-##  Psychologia/Socjologia
-  + nauka poprzez uzycie
-  + działanie
-    + "The best way to predict your future is to create it"
-    
-  + "Nie chcesz po dobroci? to Ludzie Cię nauczą ..."
++ tworzenie abstrakcyjnych modeli rzeczywistosci
++ testowanie i proptotypowanie modeli
++ poprzez doświadczanie - uczenie sie na modelach
 
 
-## Polecane książki
+# Skillset 
+### technologie
 
-+ Development
-    + Systems and Software Quality
-        + Wieczorek, Martin, Vos, Diederik, Bons, Heinz
-+ Lean Management
-  
-+ Architecture
-  + Clean Architecture: A Craftsman's Guide to Software Structure and Design 
-      + Robert C. Martin
-  + The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
-    + Gregor Hohpe, Bobby Woolf
-  + Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions
-    + Gene Kim, Patrick Debois,  John Willis, Jez Humble
++ Frontend (10%), maleje
++ Backend (40%), maleje
++ DevOPS (40%), rośnie
++ Architektura (10%), rośnie
 
-+ Startups
+# Mindset
 
-## Polecane Strony WWW
+[comment]: <> (Każdy z nas ma w różnych tematach różne punkty widzenia:)
 
-+ Architecture
-  + [Blog . Clean Coder .com ](https://blog.cleancoder.com/)
-  + [Enterprise Integration Patterns .com](https://www.enterpriseintegrationpatterns.com/)
-  + [The Transformation Architect - The Architect Elevator](https://architectelevator.com/)
++ Entuzjasta (30%)
 
-+ Softreck
-+ Entuzjasta
-+ ApiFoundation
-+ jLoads
+maleje - na rzecz managera
 
++ Nauczyciel (10%)
 
-## Jak pracuję
+rośnie - temu służy ta prezentacja
+
++ Innowator (60%)
+
+maleje - na rzecz managera i Leadera
+
++ Leader & Manager (10%)
+
+rośnie
 
 
-+ Hardware Tools
-+ Software Tools
+# Kierunek rozwoju
+
+### Leader & Manager 
+
+Wzrost kosztem zaangażowania jako entuzjasty i innowatora
+
++ Help your engineers become the best version of themselves, 
+grow great teams, have a place people want to work, be the leader people want
+
 

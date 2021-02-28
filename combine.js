@@ -29,6 +29,8 @@ var file_list = file_obj.slides;
 var output = file_obj.output;
 console.log(file_obj);
 
+var prefix = '# ';
+
 function prepareTemplate() {
     createFile('', output);
     appendToFile(header, output);
@@ -64,8 +66,9 @@ function appendToFile(data, filename) {
     }
 }
 
+const {EOL} = require('os');
 
-function splitFile(filePath, prefix = '#', callback) {
+function splitFile(filePath, prefix = '# ', callback) {
 
     fs.readFile(filePath, "utf8", function (err, data) {
 
@@ -76,7 +79,7 @@ function splitFile(filePath, prefix = '#', callback) {
             return null;
         }
 
-        var data_splitted = data.split(prefix);
+        var data_splitted = data.split(EOL + prefix);
         data_splitted.forEach(function (item, index, array) {
             // console.log('item:', item, index);
             console.log("--------filePath:");
@@ -84,7 +87,7 @@ function splitFile(filePath, prefix = '#', callback) {
             // console.log("--------data_splitted:");
 
             if (data_splitted[index].length > 2) {
-                var content = prefix + data_splitted[index];
+                var content = prefix + data_splitted[index] + "\n" + "<!-- " + filePath + ":" + index + "-->" + "\n";
                 callback(content);
             }
         });
@@ -96,16 +99,23 @@ function splitFile(filePath, prefix = '#', callback) {
 //  + combine to index.html
 function readSelectedFiles() {
 
+    var delays = 0;
     file_list.forEach(function (item, index, array) {
         console.log('item:', item, index);
 
         var filePath = './' + item;
-        // console.log(filePath);
 
-        splitFile(filePath, '#', function (content) {
-            // console.log(content);
-            appendToFile(before + content + after, output);
-        });
+        delays += 150;
+        // console.log(filePath);
+        setTimeout(function () {
+
+            splitFile(filePath, prefix, function (content) {
+                // console.log(content);
+                appendToFile(before + content + after, output);
+            });
+
+        }, delays);
+
     });
 
 }
@@ -118,6 +128,6 @@ function end() {
 
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
-setTimeout(readSelectedFiles, 800);
+setTimeout(readSelectedFiles, 500);
 setTimeout(end, 3500);
 

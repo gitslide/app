@@ -1,9 +1,11 @@
-## Współpraca przy rozwoju projektu
+# Jak zacząć?
 
-Przyszłe rozwiązania, planowane implementacje
++ Współpraca przy rozwoju projektu
++ Przyszłe rozwiązania
++ planowane implementacje
 
 
-## Cel Projektu
+# Prototypowanie
 
 Eksperyment jako inspiracja do odrywania czegoś poza
 horyzentom obecnych trendó.
@@ -14,7 +16,8 @@ Pierwszy zamysł był taki
 aby możliwe było uruchomienie na tym samym kodzie
 aplikcji w różnym środowisku, różnej domenie
 
-## Dlaczego JS?
+# Technologie
+
 JS jako monopolista, ucieszka w abstrakcje nie załatwia problemu,
 Specyfika JS jest niedoceniona
 to jezyk do prototypowania !
@@ -30,30 +33,29 @@ Dlaczego chciałem to stworzyć?
 przykład
   
 
-## Ticket
+# Ticket
 Problemy
 url
 
-## Changelog
+# Changelog
 Historia powstania
 
 
-
-##  Forma
+#  Forma
 + biblioteka
 
-## Użycie
+# Użycie
 W zależności od użycia:
 + routowanie mediów
 + proxy
 
-## Dystrybucja
+# Dystrybucja
 + paczka npm
 + plik github
 + ...
 
 
-## Techniki, wzorce
+# Techniki, wzorce
 
 + refaktoryzacja -> reużycie
 + przejmowanie po kimś projektów, chęć dokoknania drobnych kosmetycznych zmian
@@ -62,12 +64,12 @@ W zależności od użycia:
 
 
 
-## DevOPS
+# DevOPS
 
 + jak działają te skrypty
 
 
-## Tools
+# Tools
 
 
 
