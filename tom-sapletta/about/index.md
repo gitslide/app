@@ -2,12 +2,14 @@
 
 + Kim jestem zawodowo i hobbystycznie? 
 
-punkt widzenia osoby, która zaczęła programować zawodowo w wieku 27 lat
+Programista, która zaczęła programować zawodowo w wieku 27 lat
   
-od 2008, freelance (nauka poprzez praktyke)
+### od 2008
++ freelance (nauka poprzez praktyke)
 + frontend, backend
 
-od 2012, etat (do dziś)
+### od 2012
++ etat (do dziś)
 + devops, architektura
     
 # Edukacja
