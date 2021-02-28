@@ -66,10 +66,12 @@ Pierwszy zamysł był taki, by dostosować gotowe projekty
 
   
 # Eksperyment
+eksperyment = nauka przez doświadczenie
 
-Uchwycenie technicznej natury WWW, sprawdzenie granic w kontekście użycia. 
-inspiracja do wyjścia poza horyzont trendów
-+ eksperyment = nauka przez doświadczenie 
++ uchwycenie technicznej natury WWW
++ sprawdzenie granic w kontekście użycia 
++ inspiracja do wyjścia poza horyzont trendów
+  
 
 # Inne rozwiązania
 Dlaczgeo nie wykorzystać czegoś gotowego?
