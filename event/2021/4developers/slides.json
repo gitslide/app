@@ -4,11 +4,17 @@
     "tom-sapletta/about/index.md",
     "entuzjasta/opensource/index.md",
     "jloads/about/index.md",
+    "jloads/core/index.md",
+    "jloads/modules/index.md",
     "jloads/examples/index.md",
     "jloads/future/index.md",
     "event/2021/4developers/end.md"
   ],
   "output": "./event/2021/4developers/index.html",
   "title": "jLoads - JavaScript media loader and router",
-  "url": "https://www.webslides.pl/event/2021/4developers/index.html"
+  "url": "https://www.webslides.pl/event/2021/4developers/index.html",
+  "pdf": "https://www.webslides.pl/event/2021/4developers/index.html?print-pdf",
+  "image": "https://www.webslides.pl/event/2021/4developers/jloads.png",
+  "descriptions": "https://www.webslides.pl/event/2021/4developers/index.html",
+  "tags": "javascript, router, loader, builder, application streaming, interface streaming"
 }
