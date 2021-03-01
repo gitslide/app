@@ -1,21 +1,25 @@
 # Tomasz Sapletta
 
 Zacząłem programować zawodowo w wieku 27 lat
-  
-### od 2008
-+ freelance (nauka poprzez praktyke)
-+ php, frontend, backend
 
-### od 2012
-+ etat (do dziś)
-+ java, backend, devops, architektura
-    
 # Edukacja
 
 + elektromonter
 + technik elektryk
 + inżynier automatyk
 
+# Kariera
+
+od 2008:
++ freelance (nauka poprzez praktyke)
++ javascript, php
++ frontend, backend
+
+od 2011:
++ etat (do dziś)
++ nodejs, python, java
++ backend, devops, architektura
+    
 # Obecnie
 
 + Firma Softreck, Estonia
