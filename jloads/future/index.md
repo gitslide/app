@@ -43,6 +43,7 @@ Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uru
 
 
 # Rozszerzenia
+
 ### w zewnętrznych środowiskach:
 
 + app-android

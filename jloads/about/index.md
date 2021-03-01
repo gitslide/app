@@ -132,7 +132,8 @@ dzięki temu ułatwia rozwój projektów z tzw. kodem zastanym (legacy code)
 
 
 
-# prosty i transparentny
+# prosty
++ transparentny
 
 dla programistów szukających prostych rozwiązań nastawionych na utrzymanie starszych aplikacji
 
@@ -146,7 +147,7 @@ modularyzacja pozwala na szybkie wdrożenie, dając gwarancję zgodnego, bo naty
 # modularyzacja
 
 + zorientowany na modularyzację, oraz 
-+  płaską ale rozproszoną strukturę projektu
++ płaską ale rozproszoną strukturę projektu
 + pozwala na ominięcie pułapek stojących za frameworkami z ich aktualizacją
 
 
