@@ -1,41 +1,4 @@
-# Załadowanie
-
-    <script src="//get.jloads.com/jloads.min.js">
-       // Jloads is loading any media and content dynamically
-    </script>
-
-# ładowanie kaskadowe 
-
-    jl.file([
-      "//code.jquery.com/jquery-git.min.js",
-      "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
-    ]);
-
-# Hierarchicze
-
- 
-     jl.file({
-       "//code.jquery.com/jquery-3.5.1.min.js": [
-         "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
-         "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-       ]
-     });
- 
-
-# Złożone ładowanie
-
-    jl.target({
-      "head": [
-        "jquery-3.2.1.min.js",
-        "codemirror/lib/codemirror.js", 
-        ...
-      ],
-      "#forms": [
-        "form/test.html",
-        "css/codemirror.css",
-      ]
-    });
-
+# Examples
 
 # demo
 Proste przeładowanie tła, tekstu, grafiki
@@ -54,14 +17,3 @@ Proste przeładowanie tła, tekstu, grafiki
 Aplikacja do nauki gramatyki j. niemieckiego
 + [www.gramatyka .de](https://www.gramatyka.de/)
 + [tom-sapletta-com/gramatyka-de: Nauka Gramatyki Niemieckiej poprzez matrycę](https://github.com/tom-sapletta-com/gramatyka-de)
-
-
-
-# Routing
-
-jak działa?
-
-przykłady wykorzystania
-
-[examples](examples/index.md)
-[contribution](contribution/index.md)

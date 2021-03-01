@@ -1,3 +1,6 @@
+# Narodziny
++ it's a boy!
+
 # j load s
 
 + j 
@@ -23,9 +26,11 @@ Pozatechnologiczne czynniki determinujące powstanie
 
 # Idea jLoads
 Realizacją idei streamowania interfejsów aplikacji
-Continuous deployment poprzez streaming interfejsu aplikacji z użyciem protokołu HTTP/s
+Continuous deployment poprzez 
+streaming interfejsu aplikacji z użyciem protokołu HTTP/s
 
 + Stay native and react faster!
+
 
 # Cechy
 
@@ -36,10 +41,10 @@ Continuous deployment poprzez streaming interfejsu aplikacji z użyciem protoko�
 + praca z kodem zastanym
 
 
-
 # Streamowanie
+
 + continuous deployment
-+ streaming interfejsu aplikacji
++ streamowanie interfejsu aplikacji
 + użyciem protokołu HTTP/s
 
 Protokoły do strumieniowwania
@@ -114,21 +119,47 @@ reużycie -> modularyzacja
 ### przejmowanie projektów
 drobne kosmetyczne zmiany
 
-### modularyzacja
+### modularny
 z użyciem już napisanego kodu
 
 
 
+# natywny
+
++ Wspiera natywne rozwiązania
+
+dzięki temu ułatwia rozwój projektów z tzw. kodem zastanym (legacy code)
+
+
+
+# prosty i transparentny
+
+dla programistów szukających prostych rozwiązań nastawionych na utrzymanie starszych aplikacji
+
+
+# refaktoryzacja
++ Wspiera proces refaktoryzacji
+
+modularyzacja pozwala na szybkie wdrożenie, dając gwarancję zgodnego, bo natywnego kodu na dekady
+
+
+# modularyzacja
+
++ zorientowany na modularyzację, oraz 
++  płaską ale rozproszoną strukturę projektu
++ pozwala na ominięcie pułapek stojących za frameworkami z ich aktualizacją
+
+
+
 # Zastosowanie
-Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii?
+Gdzie i jak można go użyć?
+
 + budowanie aplikacji poza http
 + no more iframe!
 
 
 # Inne Rozwiązania
-Jakie są podobne rozwiązania?
-Dlaczego nie wykorzystać czegoś gotowego?
-
+Jakie są podobne gotowe / rozwiązania?
 
 ### Framework
 + paczkowanie
@@ -144,7 +175,7 @@ Dlaczego nie wykorzystać czegoś gotowego?
 Czym różni się sposób działania od popularnych framework-ów?
 
 + nastawienie na zbudowanie aplikacji i jej publikację
-+ ładujowanie mediów
++ ładowanie mediów
 + abstrakcja / specjalizacja?
 + zbudowanie aplikacji i jej wydanie
 

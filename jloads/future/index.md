@@ -1,11 +1,17 @@
-# Obecnie
+# Przyszłość
 
-+ proste ładowanie i routowanie
-+ Obecnie rozwiązanie jLoads dotyczy frontendu, 
-+ trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, co pozwoli na uruchomienie kodu bez opóźnieniea wynikającego z ładowania plików po załadowaniu strony.
+# Status
+
++ Obecnie jLoads dotyczy frontendu 
+
+Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uruchomienie kodu bez opóźnień 
+
++ ładowanie a wykonaniem kodu Javascript
+
 
 # Plany
 
++ refaktoryzacja (ktoś chętny?)
 + testy, pokrycie kodu
 + prototypowanie, [MVPs | MINIMUM VIABLE PRODUCTS](https://www.mvps.dev/)
 + wtyczka do wordpress'a
@@ -26,6 +32,7 @@
 + APIpot Auth, Autoryzacja dla systemu 
   https://github.com/apipot-auth
 
+
 # Rozszerzenia
 W celu użycia w zewnętrznych środowiskach
 
@@ -44,6 +51,24 @@ Plugin for Firefox Browser
 + plugin-chrome
 Plugin for Chrome Browser
 
+
+
+# Moduł value
+
+```javascript [1|2|3-4]             
+jl.value({
+   
+});
+```
+
++ załadować określoną treść w określony xpath
+
+
+    xpath: value
+
+Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów
+
+Value nie jest analizowane, tylko kolejno wstrzykiwane
 
 
 
