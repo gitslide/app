@@ -170,105 +170,7 @@ Zacząłem programować zawodowo w wieku 27 lat
 + prototypowanie
 + testowanie
 
-
 <!-- ./tom-sapletta/about/index.md:4-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Obszar kompetencji
-
-+ Skillset: 
-    + Hard Skills, Kompetencje
-    + Soft Skills, Osobowość
-+ Mindset
- 
-
-<!-- ./tom-sapletta/about/index.md:5-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Hard Skills
-
-+ Frontend (10%), maleje
-+ Backend (40%), maleje
-+ DevOPS (40%), rośnie
-+ Architektura (10%), rośnie
-
-
-<!-- ./tom-sapletta/about/index.md:6-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Soft Skills
-
-[comment]: <> (Każdy z nas ma w różnych tematach różne punkty widzenia:)
-
-+ Entuzjasta (30%), maleje - na rzecz Managera
-
-+ Nauczyciel (10%), rośnie - temu służy ta prezentacja
-
-+ Innowator (60%), maleje - na rzecz managera i Leadera
-
-+ Leader & Manager (10%), rośnie
-
-
-<!-- ./tom-sapletta/about/index.md:7-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Self Development
-
-+ Leader & Manager
-
-zmniejszenie zaangażowania jako entuzjasty i innowatora
-
-zwiększenie zaangażowania w zarządzaniu projektami
-
-
-
-<!-- ./tom-sapletta/about/index.md:8-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Mindset
-+ Continuous Improvement
-+ Automation
-+ Specialisation
-+ Standardisation
-+ Modularisation - Reuse
-+ Quality - Units & Values
-
-
-
-<!-- ./tom-sapletta/about/index.md:9-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Manager
-+ become a manager, not a craftsman!
-
-Help your engineers become the best version of themselves,
-grow great teams, have a place people want to work, be the leader people want
-
-
-
-
-
-
-
-<!-- ./tom-sapletta/about/index.md:10-->
     </script>
 </section>
 <section data-markdown>
@@ -678,7 +580,7 @@ Czym różni się sposób działania od popularnych framework-ów?
 <section data-markdown>
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
-# Funkcje
+# Zasada działania
 
 + możliwe jest załadowanie wielu treści pod jeden adres xpath
 + brak błędu, gdy adres xpath nie istnieje
@@ -700,19 +602,22 @@ Czym różni się sposób działania od popularnych framework-ów?
 + image, file/base64
 + zagnieżdzony html, system pluginów
 
+
 <!-- ./jloads/core/index.md:2-->
     </script>
 </section>
 <section data-markdown>
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
-# ładowanie biblioteki jloads
+# Start 
+ładowanie biblioteki jloads
 
-```javascript                
-    <script src="//get.jloads.com/jloads.min.js">
-       // Jloads is loading any media and content dynamically
-    </script>
+```javascript [2]
+Jloads is loading any media and content dynamically
+<script src="//get.jloads.com/jloads.min.js"> 
+</script>
 ```
+
 
 <!-- ./jloads/core/index.md:3-->
     </script>
@@ -720,14 +625,15 @@ Czym różni się sposób działania od popularnych framework-ów?
 <section data-markdown>
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
-# ładowanie kaskadowe
-
-```javascript [1|2-3]                    
+# kaskadowe
+ładowanie kaskadowe
+```javascript [2-3]
 jl.file([
   "//code.jquery.com/jquery-git.min.js",
-  "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+  "//bootstrapcdn.com/4.4.1/js/bootstrap.min.js",
 ]);
 ```
+
 
 <!-- ./jloads/core/index.md:4-->
     </script>
@@ -736,15 +642,15 @@ jl.file([
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
 # Hierarchicze
-
- ```javascript [1|2|3-4]                
+ładowanie Hierarchicze
+```javascript [2]
 jl.file({
    "//code.jquery.com/jquery-3.5.1.min.js": [
-     "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
-     "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     "//bootstrapcdn.com/4.4.1/js/bootstrap.min.js",
+     "//bootstrapcdn.com/4.4.1/css/bootstrap.min.css"
    ]
 });
- ```
+```
 
 
 <!-- ./jloads/core/index.md:5-->
@@ -753,9 +659,9 @@ jl.file({
 <section data-markdown>
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
-# Złożone ładowanie
-
-```javascript [1|3-4|8-9]                
+# Złożone
+ładowanie Złożone
+```javascript [3-4|8-9]
 jl.target({
   "head": [
     "jquery-3.2.1.min.js",
@@ -768,6 +674,7 @@ jl.target({
   ]
 });
 ```
+
 
 <!-- ./jloads/core/index.md:6-->
     </script>
@@ -784,6 +691,144 @@ Moduły służą do łączenia CORE z nowymi funkcjami:
 + analizy zdarzeń
 
 <!-- ./jloads/core/index.md:7-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# # Przyszłość
+
+<!-- ./jloads/future/index.md:0-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Status
+
++ Obecnie jLoads dotyczy frontendu 
+
+Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uruchomienie kodu bez opóźnień 
+
++ ładowanie a wykonaniem kodu Javascript
+
+
+<!-- ./jloads/future/index.md:1-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Plany
+
++ refaktoryzacja (ktoś chętny?)
++ testy, pokrycie kodu
++ wtyczka do wordpress'a
++ skrócić czas ładowania plików oddzielnie
+
+<!-- ./jloads/future/index.md:2-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Usługa
+
++ Model SaaS
++ Prototypowanie aplikacji
++ Domena internetowa: mvps.dev 
+
+[MVPs - MINIMUM VIABLE PRODUCTS](https://www.mvps.dev/)
+
+
+<!-- ./jloads/future/index.md:3-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Cloud
+w przygotowaniu
+
++ APIpot,
+  https://github.com/apipot
+
++ APIpot View,
+  https://github.com/apipot-view/
+
++ APIpot Input,
+  https://github.com/apipot-input
+
++ APIpot Auth, Autoryzacja dla systemu 
+  https://github.com/apipot-auth
+
+
+<!-- ./jloads/future/index.md:4-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Rozszerzenia
+W celu użycia w zewnętrznych środowiskach
+
++ app-android
+Mobile application based on Android
+
++ app-linux
+Desktop application for Linux
+
++ plugin-wordpress
+Plugin for Wordpress
+
++ plugin-firefox
+Plugin for Firefox Browser
+
++ plugin-chrome
+Plugin for Chrome Browser
+
+
+
+<!-- ./jloads/future/index.md:5-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Moduł value
+
+```javascript [1|2|3-4]             
+jl.value({
+   
+});
+```
+
++ załadować określoną treść w określony xpath
+
+
+    xpath: value
+
+Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów
+
+Value nie jest analizowane, tylko kolejno wstrzykiwane
+
+
+
+<!-- ./jloads/future/index.md:6-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Problemy
+brakuje czasu, ludzi, mediów
+
++ potrzebni są chętni do współpracy
++ integracje z usługodawcami
++ wsparcie mediów
++ wsparcie influencerów
+
+<!-- ./jloads/future/index.md:7-->
     </script>
 </section>
 <section data-markdown>
@@ -830,15 +875,15 @@ Dostępne moduły:
 # JSON
 loads json object from url as object
 
- ```javascript
-    jloadsObj("json/sentence.json", function (obj, url) {
-        console.log(obj["q&a"], url);
-        each(obj["q&a"], function (v,k) {
-            var varr = v.split(' ');
-            console.log(k,v,varr);
-            $('input[name="first"]').val(varr);
-        });
+ ```javascript [1]
+jl.obj("json/sentence.json", function (obj, url) {
+    console.log(obj["q&a"], url);
+    each(obj["q&a"], function (v,k) {
+        var varr = v.split(' ');
+        console.log(k,v,varr);
+        $('input[name="first"]').val(varr);
     });
+});
 ```
 
 
@@ -878,7 +923,7 @@ może zostać przetworzone.
 W pliku JSON określa się selector i do niego ładuje zawartość pliku
 
 
-```javascript [1-3]
+```javascript [2]
 jl.target({
    
 });
@@ -898,137 +943,13 @@ jl.target({
 w momencie zdarzenia jest ładowany określony plik lub zmieniana wartość
 Można określić precyzyjnie zdarzenie i zawartość jaka ma ulec zmianie
 
-```javascript [2-3]
+```javascript [2]
 jl.event({
    
 });
 ```
 
 <!-- ./jloads/modules/index.md:6-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# # Przyszłość
-
-<!-- ./jloads/future/index.md:0-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Status
-
-+ Obecnie jLoads dotyczy frontendu 
-
-Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uruchomienie kodu bez opóźnień 
-
-+ ładowanie a wykonaniem kodu Javascript
-
-
-<!-- ./jloads/future/index.md:1-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Plany
-
-+ refaktoryzacja (ktoś chętny?)
-+ testy, pokrycie kodu
-+ prototypowanie, [MVPs | MINIMUM VIABLE PRODUCTS](https://www.mvps.dev/)
-+ wtyczka do wordpress'a
-+ skrócić czas ładowania plików oddzielnie
-
-<!-- ./jloads/future/index.md:2-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Cloud
- w przygotowaniu
-
-+ APIpot,
-  https://github.com/apipot
-
-+ APIpot View,
-  https://github.com/apipot-view/
-
-+ APIpot Input,
-  https://github.com/apipot-input
-
-+ APIpot Auth, Autoryzacja dla systemu 
-  https://github.com/apipot-auth
-
-
-<!-- ./jloads/future/index.md:3-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Rozszerzenia
-W celu użycia w zewnętrznych środowiskach
-
-+ app-android
-Mobile application based on Android
-
-+ app-linux
-Desktop application for Linux
-
-+ plugin-wordpress
-Plugin for Wordpress
-
-+ plugin-firefox
-Plugin for Firefox Browser
-
-+ plugin-chrome
-Plugin for Chrome Browser
-
-
-
-<!-- ./jloads/future/index.md:4-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Moduł value
-
-```javascript [1|2|3-4]             
-jl.value({
-   
-});
-```
-
-+ załadować określoną treść w określony xpath
-
-
-    xpath: value
-
-Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów
-
-Value nie jest analizowane, tylko kolejno wstrzykiwane
-
-
-
-<!-- ./jloads/future/index.md:5-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Problemy
-brakuje czasu, ludzi, mediów
-
-+ potrzebni są chętni do współpracy
-+ integracje z usługodawcami
-+ wsparcie mediów
-+ wsparcie influencerów
-
-<!-- ./jloads/future/index.md:6-->
     </script>
 </section>
 <section data-markdown>

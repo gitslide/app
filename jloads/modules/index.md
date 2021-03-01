@@ -21,15 +21,15 @@ Dostępne moduły:
 # JSON
 loads json object from url as object
 
- ```javascript
-    jloadsObj("json/sentence.json", function (obj, url) {
-        console.log(obj["q&a"], url);
-        each(obj["q&a"], function (v,k) {
-            var varr = v.split(' ');
-            console.log(k,v,varr);
-            $('input[name="first"]').val(varr);
-        });
+ ```javascript [1]
+jl.obj("json/sentence.json", function (obj, url) {
+    console.log(obj["q&a"], url);
+    each(obj["q&a"], function (v,k) {
+        var varr = v.split(' ');
+        console.log(k,v,varr);
+        $('input[name="first"]').val(varr);
     });
+});
 ```
 
 
@@ -57,7 +57,7 @@ może zostać przetworzone.
 W pliku JSON określa się selector i do niego ładuje zawartość pliku
 
 
-```javascript [1-3]
+```javascript [2]
 jl.target({
    
 });
@@ -71,7 +71,7 @@ jl.target({
 w momencie zdarzenia jest ładowany określony plik lub zmieniana wartość
 Można określić precyzyjnie zdarzenie i zawartość jaka ma ulec zmianie
 
-```javascript [2-3]
+```javascript [2]
 jl.event({
    
 });

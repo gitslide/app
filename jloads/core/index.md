@@ -1,7 +1,7 @@
 # Moduł Core
 
 
-# Funkcje
+# Zasada działania
 
 + możliwe jest załadowanie wielu treści pod jeden adres xpath
 + brak błędu, gdy adres xpath nie istnieje
@@ -17,38 +17,42 @@
 + image, file/base64
 + zagnieżdzony html, system pluginów
 
-# ładowanie biblioteki jloads
 
-```javascript                
-    <script src="//get.jloads.com/jloads.min.js">
-       // Jloads is loading any media and content dynamically
-    </script>
+# Start 
+ładowanie biblioteki jloads
+
+```javascript [2]
+Jloads is loading any media and content dynamically
+<script src="//get.jloads.com/jloads.min.js"> 
+</script>
 ```
 
-# ładowanie kaskadowe
 
-```javascript [1|2-3]                    
+# kaskadowe
+ładowanie kaskadowe
+```javascript [2-3]
 jl.file([
   "//code.jquery.com/jquery-git.min.js",
-  "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+  "//bootstrapcdn.com/4.4.1/js/bootstrap.min.js",
 ]);
 ```
 
-# Hierarchicze
 
- ```javascript [1|2|3-4]                
+# Hierarchicze
+ładowanie Hierarchicze
+```javascript [2]
 jl.file({
    "//code.jquery.com/jquery-3.5.1.min.js": [
-     "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
-     "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     "//bootstrapcdn.com/4.4.1/js/bootstrap.min.js",
+     "//bootstrapcdn.com/4.4.1/css/bootstrap.min.css"
    ]
 });
- ```
+```
 
 
-# Złożone ładowanie
-
-```javascript [1|3-4|8-9]                
+# Złożone
+ładowanie Złożone
+```javascript [3-4|8-9]
 jl.target({
   "head": [
     "jquery-3.2.1.min.js",
@@ -61,6 +65,7 @@ jl.target({
   ]
 });
 ```
+
 
 # Struktura
 

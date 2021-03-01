@@ -13,12 +13,20 @@ Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uru
 
 + refaktoryzacja (ktoś chętny?)
 + testy, pokrycie kodu
-+ prototypowanie, [MVPs | MINIMUM VIABLE PRODUCTS](https://www.mvps.dev/)
 + wtyczka do wordpress'a
 + skrócić czas ładowania plików oddzielnie
 
+# Usługa
+
++ Model SaaS
++ Prototypowanie aplikacji
++ Domena internetowa: mvps.dev 
+
+[MVPs - MINIMUM VIABLE PRODUCTS](https://www.mvps.dev/)
+
+
 # Cloud
- w przygotowaniu
+w przygotowaniu
 
 + APIpot,
   https://github.com/apipot
