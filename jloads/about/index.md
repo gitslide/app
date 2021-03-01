@@ -41,7 +41,7 @@ Continuous deployment poprzez streaming interfejsu aplikacji z użyciem protoko�
 ### JavaScript
 + monopolista
 + modularyzowanie wszystkiego na frontendzie
-+ Specyfika JS jest niedoceniona to jezyk do prototypowania !
++ JavaScript to język do prototypowania !
 
 # Dystrybucja
 
@@ -78,7 +78,7 @@ eksperyment = nauka przez doświadczenie
   
 
 # Inne rozwiązania
-Dlaczgeo nie wykorzystać czegoś gotowego?
+Dlaczego nie wykorzystać czegoś gotowego?
 
 
 ### Framework
@@ -92,7 +92,7 @@ Dlaczgeo nie wykorzystać czegoś gotowego?
 
 
 # Frameworki
-czym jLoads różni się sposób działania od popularnych framework-ów?
+Czym różni się sposób działania od popularnych framework-ów?
 
 + nastawienie na zbudowanie aplikacji i jej publikację
 + ładujowanie mediów
@@ -102,11 +102,11 @@ czym jLoads różni się sposób działania od popularnych framework-ów?
 
 
 # Streamowanie
-continuous deployment poprzez streaming interfejsu aplikacji z użyciem protokołu HTTP/s
-   
++ continuous deployment 
++ streaming interfejsu aplikacji 
++ użyciem protokołu HTTP/s
 
-
-### Protokoły do strumieniowwania
+Protokoły do strumieniowwania
 + UDP
 + RTSP
 + RTCP

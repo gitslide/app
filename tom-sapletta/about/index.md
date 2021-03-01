@@ -46,7 +46,7 @@ Zacząłem programować zawodowo w wieku 27 lat
 # Obszar kompetencji
 
 + Skillset: 
-    + Hard Skills
+    + Hard Skills, Kompetencje
     + Soft Skills, Osobowość
 + Mindset
  
