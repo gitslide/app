@@ -1,4 +1,5 @@
-# Modules
+# Moduły
+
 
 # Status
 Dostępne moduły:
@@ -18,24 +19,29 @@ Dostępne moduły:
 + jloads-obj.js
 + jloads-target.js
 
+
 # JSON
 loads json object from url as object
 
- ```javascript [1]
+ ```javascript [1|4-7]
 jl.obj("json/sentence.json", function (obj, url) {
     console.log(obj["q&a"], url);
+    
     each(obj["q&a"], function (v,k) {
-        var varr = v.split(' ');
-        console.log(k,v,varr);
-        $('input[name="first"]').val(varr);
+      var varr = v.split(' ');
+      console.log(k,v,varr);
+      $('input[name="first"]').val(varr);
     });
 });
 ```
 
-
-# url
+# Url
 check url an load what exactly is in url
 
+### Przykład:
+
+
+# Url:
 ```javascript [3-4|8-9]
 jl.url({
   "head": [
@@ -50,29 +56,43 @@ jl.url({
 });
 ```
 
-# target
-funkcja ma za zadanie rozpoznać typ pliku po rozszerzeniu i go załadować
+# Target
+Funkcja ma za zadanie rozpoznać typ pliku po rozszerzeniu i go załadować
 może zostać przetworzone. 
-
 W pliku JSON określa się selector i do niego ładuje zawartość pliku
 
+### Przykład:
 
-```javascript [2]
+
+# Target:
+```javascript [3-4|8-9]
 jl.target({
-   
+  "head": [
+    "jquery-3.2.1.min.js",
+    "codemirror/lib/codemirror.js", 
+    ...
+  ],
+  "#forms": [
+    "form/test.html",
+    "css/codemirror.css",
+  ]
 });
 ```
 
 
+# Form
+Wysyłka danych metodą: 
++ POST
++ GET
++ UPDATE
++ DELETE
+
+### Przykład:
 
 
-# event
-
-w momencie zdarzenia jest ładowany określony plik lub zmieniana wartość
-Można określić precyzyjnie zdarzenie i zawartość jaka ma ulec zmianie
-
-```javascript [2]
-jl.event({
-   
+# Form:
+```javascript [3-4|8-9]
+jl.form({
+  
 });
 ```

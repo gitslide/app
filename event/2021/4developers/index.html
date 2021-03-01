@@ -571,6 +571,165 @@ Czym różni się sposób działania od popularnych framework-ów?
 <section data-markdown>
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
+# # Moduły
+
+
+<!-- ./jloads/modules/index.md:0-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Status
+Dostępne moduły:
+
++ jloads - klasa do wywołania każdego typu poniżej:
+    + jloads.target
+    + jloads.url
+    + jloads.event
+    + jloads.obj
+
+
+<!-- ./jloads/modules/index.md:1-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Pliki
++ jloads.js ->jloads.min.js 
++ jloads-event.js
++ jloads-file.js
++ jloads-form.js
++ jloads-obj.js
++ jloads-target.js
+
+
+<!-- ./jloads/modules/index.md:2-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# JSON
+loads json object from url as object
+
+ ```javascript [1|4-7]
+jl.obj("json/sentence.json", function (obj, url) {
+    console.log(obj["q&a"], url);
+    
+    each(obj["q&a"], function (v,k) {
+      var varr = v.split(' ');
+      console.log(k,v,varr);
+      $('input[name="first"]').val(varr);
+    });
+});
+```
+
+<!-- ./jloads/modules/index.md:3-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Url
+check url an load what exactly is in url
+
+### Przykład:
+
+
+<!-- ./jloads/modules/index.md:4-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Url:
+```javascript [3-4|8-9]
+jl.url({
+  "head": [
+    "jquery-3.2.1.min.js",
+    "codemirror/lib/codemirror.js", 
+    ...
+  ],
+  "#forms": [
+    "form/test.html",
+    "css/codemirror.css",
+  ]
+});
+```
+
+<!-- ./jloads/modules/index.md:5-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Target
+Funkcja ma za zadanie rozpoznać typ pliku po rozszerzeniu i go załadować
+może zostać przetworzone. 
+W pliku JSON określa się selector i do niego ładuje zawartość pliku
+
+### Przykład:
+
+
+<!-- ./jloads/modules/index.md:6-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Target:
+```javascript [3-4|8-9]
+jl.target({
+  "head": [
+    "jquery-3.2.1.min.js",
+    "codemirror/lib/codemirror.js", 
+    ...
+  ],
+  "#forms": [
+    "form/test.html",
+    "css/codemirror.css",
+  ]
+});
+```
+
+
+<!-- ./jloads/modules/index.md:7-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Form
+Wysyłka danych metodą: 
++ POST
++ GET
++ UPDATE
++ DELETE
+
+### Przykład:
+
+
+<!-- ./jloads/modules/index.md:8-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
+# Form:
+```javascript [3-4|8-9]
+jl.form({
+  
+});
+```
+
+<!-- ./jloads/modules/index.md:9-->
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+        <!-- .slide: data-background="#FFFFFF" -->
 # # Moduł Core
 
 
@@ -659,29 +818,6 @@ jl.file({
 <section data-markdown>
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
-# Złożone
-ładowanie Złożone
-```javascript [3-4|8-9]
-jl.target({
-  "head": [
-    "jquery-3.2.1.min.js",
-    "codemirror/lib/codemirror.js", 
-    ...
-  ],
-  "#forms": [
-    "form/test.html",
-    "css/codemirror.css",
-  ]
-});
-```
-
-
-<!-- ./jloads/core/index.md:6-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
 # Struktura
 
 podstawowy moduł CORE
@@ -690,7 +826,7 @@ podstawowy moduł CORE
 Moduły służą do łączenia CORE z nowymi funkcjami:
 + analizy zdarzeń
 
-<!-- ./jloads/core/index.md:7-->
+<!-- ./jloads/core/index.md:6-->
     </script>
 </section>
 <section data-markdown>
@@ -748,7 +884,8 @@ Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uru
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
 # Cloud
-w przygotowaniu
+
+### w przygotowaniu:
 
 + APIpot,
   https://github.com/apipot
@@ -770,7 +907,7 @@ w przygotowaniu
     <script type="text/template">
         <!-- .slide: data-background="#FFFFFF" -->
 # Rozszerzenia
-W celu użycia w zewnętrznych środowiskach
+### w zewnętrznych środowiskach:
 
 + app-android
 Mobile application based on Android
@@ -797,21 +934,19 @@ Plugin for Chrome Browser
         <!-- .slide: data-background="#FFFFFF" -->
 # Moduł value
 
-```javascript [1|2|3-4]             
+Załadować określoną treść w określony xpath:
+  
+
+    xpath: value
+
+[comment]: <> (Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów)
+
+Value nie jest analizowane, tylko kolejno wstrzykiwane
+```javascript [1]             
 jl.value({
    
 });
 ```
-
-+ załadować określoną treść w określony xpath
-
-
-    xpath: value
-
-Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów
-
-Value nie jest analizowane, tylko kolejno wstrzykiwane
-
 
 
 <!-- ./jloads/future/index.md:6-->
@@ -829,127 +964,6 @@ brakuje czasu, ludzi, mediów
 + wsparcie influencerów
 
 <!-- ./jloads/future/index.md:7-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# # Modules
-
-<!-- ./jloads/modules/index.md:0-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Status
-Dostępne moduły:
-
-+ jloads - klasa do wywołania każdego typu poniżej:
-    + jloads.target
-    + jloads.url
-    + jloads.event
-    + jloads.obj
-
-
-<!-- ./jloads/modules/index.md:1-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# Pliki
-+ jloads.js ->jloads.min.js 
-+ jloads-event.js
-+ jloads-file.js
-+ jloads-form.js
-+ jloads-obj.js
-+ jloads-target.js
-
-<!-- ./jloads/modules/index.md:2-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# JSON
-loads json object from url as object
-
- ```javascript [1]
-jl.obj("json/sentence.json", function (obj, url) {
-    console.log(obj["q&a"], url);
-    each(obj["q&a"], function (v,k) {
-        var varr = v.split(' ');
-        console.log(k,v,varr);
-        $('input[name="first"]').val(varr);
-    });
-});
-```
-
-
-<!-- ./jloads/modules/index.md:3-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# url
-check url an load what exactly is in url
-
-```javascript [3-4|8-9]
-jl.url({
-  "head": [
-    "jquery-3.2.1.min.js",
-    "codemirror/lib/codemirror.js", 
-    ...
-  ],
-  "#forms": [
-    "form/test.html",
-    "css/codemirror.css",
-  ]
-});
-```
-
-<!-- ./jloads/modules/index.md:4-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# target
-funkcja ma za zadanie rozpoznać typ pliku po rozszerzeniu i go załadować
-może zostać przetworzone. 
-
-W pliku JSON określa się selector i do niego ładuje zawartość pliku
-
-
-```javascript [2]
-jl.target({
-   
-});
-```
-
-
-
-
-<!-- ./jloads/modules/index.md:5-->
-    </script>
-</section>
-<section data-markdown>
-    <script type="text/template">
-        <!-- .slide: data-background="#FFFFFF" -->
-# event
-
-w momencie zdarzenia jest ładowany określony plik lub zmieniana wartość
-Można określić precyzyjnie zdarzenie i zawartość jaka ma ulec zmianie
-
-```javascript [2]
-jl.event({
-   
-});
-```
-
-<!-- ./jloads/modules/index.md:6-->
     </script>
 </section>
 <section data-markdown>

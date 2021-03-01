@@ -111,7 +111,7 @@ function readSelectedFiles() {
 
         var filePath = './' + item;
 
-        delays += 150;
+        delays += 200;
         // console.log(filePath);
         setTimeout(function () {
 
@@ -135,5 +135,5 @@ function end() {
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
 setTimeout(readSelectedFiles, 500);
-setTimeout(end, 10000);
+setTimeout(end, 9000);
 

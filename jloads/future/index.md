@@ -26,7 +26,8 @@ Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uru
 
 
 # Cloud
-w przygotowaniu
+
+### w przygotowaniu:
 
 + APIpot,
   https://github.com/apipot
@@ -42,7 +43,7 @@ w przygotowaniu
 
 
 # Rozszerzenia
-W celu użycia w zewnętrznych środowiskach
+### w zewnętrznych środowiskach:
 
 + app-android
 Mobile application based on Android
@@ -63,21 +64,19 @@ Plugin for Chrome Browser
 
 # Moduł value
 
-```javascript [1|2|3-4]             
+Załadować określoną treść w określony xpath:
+  
+
+    xpath: value
+
+[comment]: <> (Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów)
+
+Value nie jest analizowane, tylko kolejno wstrzykiwane
+```javascript [1]             
 jl.value({
    
 });
 ```
-
-+ załadować określoną treść w określony xpath
-
-
-    xpath: value
-
-Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów
-
-Value nie jest analizowane, tylko kolejno wstrzykiwane
-
 
 
 # Problemy

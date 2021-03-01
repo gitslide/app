@@ -50,23 +50,6 @@ jl.file({
 ```
 
 
-# Złożone
-ładowanie Złożone
-```javascript [3-4|8-9]
-jl.target({
-  "head": [
-    "jquery-3.2.1.min.js",
-    "codemirror/lib/codemirror.js", 
-    ...
-  ],
-  "#forms": [
-    "form/test.html",
-    "css/codemirror.css",
-  ]
-});
-```
-
-
 # Struktura
 
 podstawowy moduł CORE
