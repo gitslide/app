@@ -110,16 +110,17 @@ function readSelectedFiles() {
 
         var filePath = './' + item;
 
-        var delays = item * 300;
+        var delays = item * 250;
         // console.log(filePath);
-        setTimeout(function () {
 
             splitFile(filePath, prefix, function (content) {
                 // console.log(content);
-                appendToFile(before + content + after, output);
+                setTimeout(function () {
+                    appendToFile(before + content + after, output);
+                }, delays);
+
             });
 
-        }, delays);
 
     });
 
@@ -133,6 +134,6 @@ function end() {
 
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
-setTimeout(readSelectedFiles, 500);
+setTimeout(readSelectedFiles, 600);
 setTimeout(end, 11000);
 

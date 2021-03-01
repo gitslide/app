@@ -29,17 +29,13 @@ Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uru
 
 ### w przygotowaniu:
 
-+ APIpot,
-  https://github.com/apipot
++ APIpot, https://github.com/apipot
 
-+ APIpot View,
-  https://github.com/apipot-view/
++ APIpot View, https://github.com/apipot-view/
 
-+ APIpot Input,
-  https://github.com/apipot-input
++ APIpot Input, https://github.com/apipot-input
 
-+ APIpot Auth, Autoryzacja dla systemu 
-  https://github.com/apipot-auth
++ APIpot Auth, https://github.com/apipot-auth
 
 
 # Rozszerzenia
