@@ -7,7 +7,7 @@ Moduły służą do łączenia CORE z nowymi funkcjami:
 + analizy zdarzeń
 
 
-## Lista 
+# Lista
 Obecnie dostępne są rozwiązania:
 
 + jloads - klasa do wywołania każdego typu poniżej:
@@ -16,6 +16,13 @@ Obecnie dostępne są rozwiązania:
 + jloads.content
 + jloads.event
 
+# Core
+jloads.js
+jloads-event.js
+jloads-file.js
+jloads-form.js
+jloads-obj.js
+jloads-target.js
 
 ### JSON
 loads json object from url as object

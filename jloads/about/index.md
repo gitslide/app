@@ -4,11 +4,23 @@
 + load
 + s
 
-+ javascript router and (down)loader
+javascript router and (down)loader
 
-realizacją idei streamowania interfejsów aplikacji
+continous deployment by streaming
 
-+ continous deployment by streaming
+# Idea jLoads
+Realizacją idei streamowania interfejsów aplikacji
+Continuous deployment poprzez streaming interfejsu aplikacji z użyciem protokołu HTTP/s
+
++ Stay native and react faster!
+
+# Cechy
+
++ Definicja w JSON
++ Natywny Javascript
++ forma biblioteki a nie frameworka
++ modularyzacja
++ praca z kodem zastanym
 
 
 # Forma
@@ -89,15 +101,8 @@ czym jLoads różni się sposób działania od popularnych framework-ów?
 
 
 
-# Idea jLoads
+# Streamowanie
 continuous deployment poprzez streaming interfejsu aplikacji z użyciem protokołu HTTP/s
-
-stay native and react faster!
-+ Definicja w JSON
-+ Natywny Javascript
-+ forma biblioteki a nie frameworka  
-+ modularyzacja 
-+ praca z kodem zastanym
    
 
 

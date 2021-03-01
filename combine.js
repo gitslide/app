@@ -45,7 +45,6 @@ function createFile(data, filename) {
     };
     try {
         fs.writeFileSync(filename, data, config);
-        // console.log(fs.readFileSync(filename + ext, config.encoding));
     } catch (err) {
         console.error(err);
     }
@@ -60,7 +59,6 @@ function appendToFile(data, filename) {
     };
     try {
         fs.writeFileSync(filename, data, config);
-        // console.log(fs.readFileSync(filename + ext, config.encoding));
     } catch (err) {
         console.error(err);
     }
@@ -94,9 +92,17 @@ function splitFile(filePath, prefix = '# ', callback) {
     });
 }
 
-// TODO read only selected files
-//  + split content
-//  + combine to index.html
+/*
+ */
+
+
+
+
+/**
+ * read only selected files
+ * split content
+ * combine to index.html
+ */
 function readSelectedFiles() {
 
     var delays = 0;
