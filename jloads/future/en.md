@@ -43,30 +43,19 @@ Trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, Pozwoli to na uru
 
 
 # Rozszerzenia
- 
-W zewnętrznych środowiskach, *wprzygotowaniu
-+ Aplikacje ładujące zdefiniowane pliki
-+ Konfiguracja config.json pobierana z zewnątrz 
-+ konfiguracja JSON na serwerze
 
+### w zewnętrznych środowiskach:
 
-# Aplikacje
++ app-android
+Mobile application based on Android
 
-+ Aplikacja mobilna na smartfony:
-  + android
-    
-+ Aplikacja na PC:
-  + Linux
-  + Windows
++ Desktop application for Linux
 
++ Plugin for Wordpress
 
-# Wtyczki
++ Plugin for Firefox Browser
 
-+ na Wordpress
-
-+ na Firefox'a
-
-+ na Chrome'a
++ Plugin for Chrome Browser
 
 
 
@@ -79,7 +68,7 @@ Załadować określoną treść w określony xpath:
 
 [comment]: <> (Istotne, by nie zapomnieć dokładnej ścieżki, aby nie było konfliktów)
 
-Value nie jest analizowane tylko kolejno wstrzykiwane
+Value nie jest analizowane, tylko kolejno wstrzykiwane
 ```javascript [1]             
 jl.value({
    

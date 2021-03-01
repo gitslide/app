@@ -123,40 +123,47 @@ drobne kosmetyczne zmiany
 z użyciem już napisanego kodu
 
 
-
 # natywny
 
 + Wspiera natywne rozwiązania
 
-dzięki temu ułatwia rozwój projektów z tzw. kodem zastanym (legacy code)
+Ułatwia rozwój projektów z tzw. kodem zastanym (legacy code)
 
 
 
 # prosty
 + transparentny
 
-dla programistów szukających prostych rozwiązań nastawionych na utrzymanie starszych aplikacji
+Dla programistów szukających prostych rozwiązań nastawionych na utrzymanie starszych aplikacji
 
 
 # refaktoryzacja
 + Wspiera proces refaktoryzacji
 
-modularyzacja pozwala na szybkie wdrożenie, dając gwarancję zgodnego, bo natywnego kodu na dekady
+Modularyzacja pozwala na szybkie wdrożenie, dając gwarancję zgodnego, bo natywnego kodu na dekady
 
 
 # modularyzacja
 
-+ zorientowany na modularyzację, oraz 
-+ płaską ale rozproszoną strukturę projektu
-+ pozwala na ominięcie pułapek stojących za frameworkami z ich aktualizacją
++ płaską i rozproszoną struktura
++ ominięcie pułapek stojących za frameworkami z ich aktualizacją
 
 
 
-# Zastosowanie
+# Jak i Gdzie
 Gdzie i jak można go użyć?
 
 + budowanie aplikacji poza http
 + no more iframe!
++ synchronizuje asynchroniczne media
+
+
+# Zastosowanie
+
++ budowanie w rozproszonym środowisku
++ ładowanie istniejących modułów
++ ładowanie treści marketingowych
++ ponowne użycie
 
 
 # Inne Rozwiązania

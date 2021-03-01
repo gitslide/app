@@ -105,13 +105,12 @@ function splitFile(filePath, prefix = '# ', callback) {
  */
 function readSelectedFiles() {
 
-    var delays = 0;
     file_list.forEach(function (item, index, array) {
         console.log('item:', item, index);
 
         var filePath = './' + item;
 
-        delays += 200;
+        var delays = item * 300;
         // console.log(filePath);
         setTimeout(function () {
 
@@ -135,5 +134,5 @@ function end() {
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
 setTimeout(readSelectedFiles, 500);
-setTimeout(end, 9000);
+setTimeout(end, 11000);
 
