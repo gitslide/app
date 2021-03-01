@@ -9,7 +9,7 @@ Protokoły do stream-owania:
 + RTP
 
 # WebRTC
-Real-time communication without plugins,
+Real-time communication without plugins
 WebRTC implements these three APIs:
 
 + MediaStream gets access to data streams, user's camera/microphone
@@ -17,7 +17,8 @@ WebRTC implements these three APIs:
 + RTCDataChannel enables peer-to-peer communication of generic data
 
 
-# use cases
+# WebRTC 
+### use cases
 
 + Gaming
 + Remote desktop apps
@@ -25,8 +26,10 @@ WebRTC implements these three APIs:
 + File transfer
 + Decentralized networks
 
+
 # jLoads
-użyciem protokołu HTTP/s:
+
+Stream-owanie z użyciem protokołu HTTP/s:
 
 + continuous deployment
 + stream-owanie interfejsu aplikacji

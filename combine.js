@@ -50,6 +50,7 @@ function createFile(data, filename) {
     }
 }
 
+var delays = 0;
 
 function appendToFile(data, filename) {
     let config = {
@@ -58,7 +59,13 @@ function appendToFile(data, filename) {
         mode: 0o666
     };
     try {
-        fs.writeFileSync(filename, data, config);
+        delays += 20;
+
+        setTimeout(function () {
+            console.log(filename);
+            fs.writeFileSync(filename, data, config);
+        }, delays);
+
     } catch (err) {
         console.error(err);
     }
@@ -104,22 +111,23 @@ function splitFile(filePath, prefix = '# ', callback) {
  * combine to index.html
  */
 function readSelectedFiles() {
+    var delays = 0;
 
     file_list.forEach(function (item, index, array) {
         console.log('item:', item, index);
 
         var filePath = './' + item;
+        delays += 20;
 
-        var delays = item * 250;
         // console.log(filePath);
+        setTimeout(function () {
 
             splitFile(filePath, prefix, function (content) {
                 // console.log(content);
-                setTimeout(function () {
                     appendToFile(before + content + after, output);
-                }, delays);
-
             });
+
+        }, delays);
 
 
     });
@@ -135,5 +143,5 @@ function end() {
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
 setTimeout(readSelectedFiles, 600);
-setTimeout(end, 11000);
+setTimeout(end, 9000);
 

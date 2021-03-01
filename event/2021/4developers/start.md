@@ -18,9 +18,11 @@ Za możliwość wzięcia udziału w tej konferencji!
 
 1. Prelegent
 2. OpenSource
-3. Projekt jLoads
-4. Przykłady
-5. Plany
-6. Podsumowanie
+3. Stream-owanie
+4. Projekt jLoads
+5. Moduły jLoads   
+6. Przykłady
+7. Plany
+8. Podsumowanie
 
 [comment]: <> (6. o współpracy/wsparciu)
