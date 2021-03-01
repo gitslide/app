@@ -73,8 +73,17 @@ Zacząłem programować zawodowo w wieku 27 lat
 
 
 # Mindset
++ Continuous Improvement
++ Automation
++ Specialisation
++ Standardisation
++ Modularisation - Reuse
++ Quality - Units & Values
 
-# be Manager
+
+# Manager
++ become a manager, not a craftsman!
+
 Help your engineers become the best version of themselves,
 grow great teams, have a place people want to work, be the leader people want
 

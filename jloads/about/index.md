@@ -23,6 +23,37 @@ Continuous deployment poprzez streaming interfejsu aplikacji z użyciem protoko�
 + praca z kodem zastanym
 
 
+
+# Streamowanie
++ continuous deployment
++ streaming interfejsu aplikacji
++ użyciem protokołu HTTP/s
+
+Protokoły do strumieniowwania
++ UDP
++ RTSP
++ RTCP
++ RTP
+
+
+# Cel Projektu
+
+Pierwszy zamysł był taki, by dostosować gotowe projekty
++ wsparcie aplikacji z legacy code
++ zgodność na dekady -> natywne technologie
++ praca na rożnych środowiskach
++ praca z wieloma domenami, adresami, portami
+
+
+# Eksperyment
+eksperyment = nauka przez doświadczenie
+
++ uchwycenie technicznej natury WWW
++ sprawdzenie granic w kontekście użycia
++ inspiracja do wyjścia poza horyzont trendów
+
+
+
 # Forma
 
 ### biblioteka
@@ -60,57 +91,6 @@ Continuous deployment poprzez streaming interfejsu aplikacji z użyciem protoko�
 + offline
 + Interfejsy aplikacji dla IoT
 
-# Cel Projektu
-
-Pierwszy zamysł był taki, by dostosować gotowe projekty
-+ wsparcie aplikacji z legacy code
-+ zgodność na dekady -> natywne technologie 
-+ praca na rożnych środowiskach
-+ praca z wieloma domenami, adresami, portami
-
-  
-# Eksperyment
-eksperyment = nauka przez doświadczenie
-
-+ uchwycenie technicznej natury WWW
-+ sprawdzenie granic w kontekście użycia 
-+ inspiracja do wyjścia poza horyzont trendów
-  
-
-# Inne rozwiązania
-Dlaczego nie wykorzystać czegoś gotowego?
-
-
-### Framework
-+ paczkowanie
-+ jednolita forma, monolit
-
-
-### Chmura
-+ zależność
-+ nienatywne technologie
-
-
-# Frameworki
-Czym różni się sposób działania od popularnych framework-ów?
-
-+ nastawienie na zbudowanie aplikacji i jej publikację
-+ ładujowanie mediów
-+ abstrakcja / specjalizacja?
-+ zbudowanie aplikacji i jej wydanie
-
-
-
-# Streamowanie
-+ continuous deployment 
-+ streaming interfejsu aplikacji 
-+ użyciem protokołu HTTP/s
-
-Protokoły do strumieniowwania
-+ UDP
-+ RTSP
-+ RTCP
-+ RTP
 
 
 # Możliwości
@@ -140,12 +120,31 @@ Coraz bardziej wyspecjalizowane i spersonalizowane usługi
 
 # Zastosowanie
 Jakie jest miejsce tego rozwiązania przy aktualnym stanie technologii?
-
-
-## Dlaczego używać, do czego
-Obecna sytuacji
++ budowanie aplikacji poza http
++ no more iframe!
 
 
 # Inne Rozwiązania
 Jakie są podobne rozwiązania?
+Dlaczego nie wykorzystać czegoś gotowego?
+
+
+### Framework
++ paczkowanie
++ jednolita forma, monolit
+
+
+### Chmura
++ zależność
++ nienatywne technologie
+
+
+# Frameworki
+Czym różni się sposób działania od popularnych framework-ów?
+
++ nastawienie na zbudowanie aplikacji i jej publikację
++ ładujowanie mediów
++ abstrakcja / specjalizacja?
++ zbudowanie aplikacji i jej wydanie
+
 
