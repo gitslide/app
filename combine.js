@@ -59,9 +59,10 @@ function appendToFile(data, filename) {
         mode: 0o666
     };
     try {
-        delays += 20;
+        delays += 50;
 
         setTimeout(function () {
+            console.log(delays);
             console.log(filename);
             fs.writeFileSync(filename, data, config);
         }, delays);
@@ -103,8 +104,6 @@ function splitFile(filePath, prefix = '# ', callback) {
  */
 
 
-
-
 /**
  * read only selected files
  * split content
@@ -117,14 +116,15 @@ function readSelectedFiles() {
         console.log('item:', item, index);
 
         var filePath = './' + item;
-        delays += 20;
+        delays += 50;
 
         // console.log(filePath);
         setTimeout(function () {
+            console.log(delays);
 
             splitFile(filePath, prefix, function (content) {
                 // console.log(content);
-                    appendToFile(before + content + after, output);
+                appendToFile(before + content + after, output);
             });
 
         }, delays);
@@ -143,5 +143,5 @@ function end() {
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
 setTimeout(readSelectedFiles, 600);
-setTimeout(end, 9000);
+setTimeout(end, 6000);
 
