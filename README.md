@@ -13,7 +13,10 @@ The profile is created for User or Organisation
 
 
 ## Slides for Events
-+ [4Dev](https://www.webslides.pl/event/2021/4developers/index.html)
+
+### 4dev
++ [html](https://www.webslides.pl/event/2021/4developers/index.html)
++ [pdf](https://www.webslides.pl/event/2021/4developers/index.html?print-pdf)
   
 
 ## More About project
