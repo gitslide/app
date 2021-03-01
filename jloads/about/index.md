@@ -8,6 +8,19 @@ javascript router and (down)loader
 
 continous deployment by streaming
 
+
+# Tło powstania
+Pozatechnologiczne czynniki determinujące powstanie
+
+### Kultura pracy
++ Szybki rozwój
++ Krótkie cykle
++ Agille
++ specjalizacja
++ personalizacja
++ sztuczna inteligencja
+
+
 # Idea jLoads
 Realizacją idei streamowania interfejsów aplikacji
 Continuous deployment poprzez streaming interfejsu aplikacji z użyciem protokołu HTTP/s
@@ -104,18 +117,6 @@ drobne kosmetyczne zmiany
 ### modularyzacja
 z użyciem już napisanego kodu
 
-
-
-# Tło powstania
-
-Technologiczne powody powstania
-
-### Kultura pracy
-+ Lean management
-+ DevOPS
-
-### Model dystrybucji
-Coraz bardziej wyspecjalizowane i spersonalizowane usługi
 
 
 # Zastosowanie

@@ -14,7 +14,7 @@ Zacząłem programować zawodowo w wieku 27 lat
 
 + elektromonter
 + technik elektryk
-+ inżynier automatyki
++ inżynier automatyk
 
 # Obecnie
 
@@ -25,7 +25,8 @@ Zacząłem programować zawodowo w wieku 27 lat
 + Rodzina, Niemcy
 
 
-# Zainteresowania
+# zainteresowania
+
 + Hardware Development
 + Software Development
 + Lean Management, DevOps
@@ -72,6 +73,16 @@ Zacząłem programować zawodowo w wieku 27 lat
 + Leader & Manager (10%), rośnie
 
 
+# Self Development
+
++ Leader & Manager
+
+zmniejszenie zaangażowania jako entuzjasty i innowatora
+
+zwiększenie zaangażowania w zarządzaniu projektami
+
+
+
 # Mindset
 + Continuous Improvement
 + Automation
@@ -81,6 +92,7 @@ Zacząłem programować zawodowo w wieku 27 lat
 + Quality - Units & Values
 
 
+
 # Manager
 + become a manager, not a craftsman!
 
@@ -88,16 +100,6 @@ Help your engineers become the best version of themselves,
 grow great teams, have a place people want to work, be the leader people want
 
 
-# Self Development
-
-### Leader & Manager
-
-zmniejszenie zaangażowania:
-+ jako entuzjasty i innowatora
-
-
-zwiększenie zaangażowania:
-+ w zarządzaniu projektami
 
 
 
