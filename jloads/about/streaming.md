@@ -12,15 +12,10 @@ Protokoły do stream-owania:
 Real-time communication without plugins,
 WebRTC implements these three APIs:
 
-+ MediaStream gets access to data streams, such as from the user's camera and microphone.
-+ RTCPeerConnection enables audio or video calling with facilities for encryption and bandwidth management.
-+ RTCDataChannel enables peer-to-peer communication of generic data.
++ MediaStream gets access to data streams, user's camera/microphone
++ RTCPeerConnection enables audio or video calling, encryption, bandwidth management
++ RTCDataChannel enables peer-to-peer communication of generic data
 
-
-The APIs are defined in these two specs:
-
-+ WebRTC
-+ getUserMedia
 
 # use cases
 
