@@ -32,12 +32,9 @@ The profile is created for User or Organisation
 # Usage
 
 
-Build from many files
-    
-    .apicra/build.bat
+## START
 
-
-Split, Merge many md to one html 
+Split content from MD, Merge to to one html 
 
     node combine.js
     
