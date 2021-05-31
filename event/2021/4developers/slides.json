@@ -15,6 +15,16 @@
   ],
   "output": "./event/2021/4developers/index.html",
   "title": "jLoads - JavaScript media loader and router",
+  "template": {
+    "page": {
+      "header": "header.html",
+      "footer": "footer.html"
+    },
+    "slide": {
+      "header": "slide_header.html",
+      "footer": "slide_footer.html"
+    }
+  },
   "url": "https://www.webslides.pl/event/2021/4developers/index.html",
   "pdf": "https://www.webslides.pl/event/2021/4developers/index.html?print-pdf",
   "image": "https://www.webslides.pl/event/2021/4developers/jloads.png",

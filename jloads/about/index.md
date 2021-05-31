@@ -18,7 +18,7 @@ Pozatechnologiczne czynniki determinujące powstanie
 ### Kultura pracy
 + Szybki rozwój
 + Krótkie cykle
-+ Agille
++ Agile
 + specjalizacja
 + personalizacja
 + sztuczna inteligencja

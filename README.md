@@ -34,14 +34,10 @@ The profile is created for User or Organisation
 
 Build from many files
     
-    build.bat
-
-Split with prefix to many files
-
-    node split.js
+    .apicra/build.bat
 
 
-Merge many md to one html 
+Split, Merge many md to one html 
 
-    node merge.js
+    node combine.js
     

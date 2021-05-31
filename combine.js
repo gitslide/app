@@ -3,31 +3,37 @@ const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
 
+const slide_config_path = './event/2021/4developers/';
+const config_filename = 'slides.json';
+var cfg = require(slide_config_path + config_filename);
+console.log(cfg);
 
+// PAGE
 var header = '';
-fs.readFile('./header.html', "utf8", function (err, data) {
+fs.readFile(slide_config_path + cfg.template.page.header, "utf8", function (err, data) {
     header = data;
 });
 var footer = '';
-fs.readFile('./footer.html', "utf8", function (err, data) {
+fs.readFile(slide_config_path + cfg.template.page.footer, "utf8", function (err, data) {
     footer = data;
 });
 
+// SLIDE
 var before = '';
-fs.readFile('./before.html', "utf8", function (err, data) {
+fs.readFile(slide_config_path + cfg.template.slide.header, "utf8", function (err, data) {
     before = data;
 });
 
 var after = '';
-fs.readFile('./after.html', "utf8", function (err, data) {
+fs.readFile(slide_config_path + cfg.template.slide.footer, "utf8", function (err, data) {
     after = data;
 });
 
-// var output = './event/2021/4developers/index.html';
-var file_obj = require('./event/2021/4developers/slides.json');
-var file_list = file_obj.slides;
-var output = file_obj.output;
-console.log(file_obj);
+// console.log(header + before + after +footer);
+
+
+var file_list = cfg.slides;
+var output = cfg.output;
 
 var prefix = '# ';
 
@@ -61,11 +67,11 @@ function appendToFile(data, filename) {
     try {
         delays += 50;
 
-        setTimeout(function () {
+        // setTimeout(function () {
             console.log(delays);
             console.log(filename);
             fs.writeFileSync(filename, data, config);
-        }, delays);
+        // }, delays);
 
     } catch (err) {
         console.error(err);
@@ -112,18 +118,21 @@ function splitFile(filePath, prefix = '# ', callback) {
 function readSelectedFiles() {
     var delays = 0;
 
+    // console.log(file_list);
+    // return;
     file_list.forEach(function (item, index, array) {
         console.log('item:', item, index);
 
         var filePath = './' + item;
-        delays += 50;
+        delays += 100;
 
-        // console.log(filePath);
+        console.log(filePath);
         setTimeout(function () {
             console.log(delays);
 
             splitFile(filePath, prefix, function (content) {
                 // console.log(content);
+
                 appendToFile(before + content + after, output);
             });
 
@@ -142,6 +151,6 @@ function end() {
 
 setTimeout(prepareTemplate, 200);
 // setTimeout(readAllFiles, 600);
-setTimeout(readSelectedFiles, 600);
-setTimeout(end, 6000);
+setTimeout(readSelectedFiles, 800);
+setTimeout(end, 12000);
 
