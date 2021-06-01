@@ -37,4 +37,11 @@ The profile is created for User or Organisation
 Split content from MD, Merge to to one html 
 
     node combine.js
-    
+
+---
++ [edit](https://github.com/webslides-pl/www/edit/main/README.md)
+
+```
+https://github.com/webslides-pl/www.git
+```
+
