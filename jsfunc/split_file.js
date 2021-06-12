@@ -1,7 +1,8 @@
 
 const {EOL} = require('os');
+const fs = require('fs');
 
-exports.split_file = function (filePath, prefix = '# ', callback) {
+const split_file = function (filePath, prefix = '# ', callback) {
 
     fs.readFile(filePath, "utf8", function (err, data) {
 
@@ -26,3 +27,5 @@ exports.split_file = function (filePath, prefix = '# ', callback) {
         });
     });
 }
+
+module.exports = split_file;

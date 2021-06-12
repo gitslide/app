@@ -1,4 +1,6 @@
-exports.create_file = function(data, filename) {
+const fs = require('fs');
+
+const create_file = function(data, filename) {
     let config = {
         encoding: "utf8",
         flag: "w",
@@ -10,3 +12,5 @@ exports.create_file = function(data, filename) {
         console.error(err);
     }
 }
+
+module.exports = create_file;

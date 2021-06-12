@@ -2,7 +2,14 @@
 const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
+const {EOL} = require('os');
+
+// VARIABLE
+var delays = 0;
+
+// jsfunc
 const create_file = require('./jsfunc/create_file');
+const split_file = require('./jsfunc/split_file');
 const append_to_file = require('./jsfunc/append_to_file');
 
 // const project_path = '.';
@@ -47,7 +54,6 @@ function prepareTemplate() {
 }
 
 
-var delays = 0;
 
 
 /**

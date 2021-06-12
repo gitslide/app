@@ -1,4 +1,7 @@
-exports.append_to_file = function(data, filename) {
+const fs = require('fs');
+var delays = 0;
+
+const append_to_file = function(data, filename) {
     let config = {
         encoding: "utf8",
         flag: "a+",
@@ -17,3 +20,5 @@ exports.append_to_file = function(data, filename) {
         console.error(err);
     }
 }
+
+module.exports = append_to_file;
