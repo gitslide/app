@@ -4,8 +4,8 @@ const readline = require('readline');
 const path = require('path');
 
 // const project_path = '.';
-const project_path = '../data';
-const slide_config_path = project_path + '/event/2021/4developers/';
+const project_path = '../data/';
+const slide_config_path = project_path + 'event/2021/4developers/';
 const config_filename = 'slides.json';
 var cfg = require(slide_config_path + config_filename);
 console.log(cfg);
@@ -35,7 +35,7 @@ fs.readFile(slide_config_path + cfg.template.slide.footer, "utf8", function (err
 
 
 var file_list = cfg.slides;
-var output = cfg.output;
+var output = project_path + cfg.output;
 
 var prefix = '# ';
 
@@ -125,7 +125,7 @@ function readSelectedFiles() {
     file_list.forEach(function (item, index, array) {
         console.log('item:', item, index);
 
-        var filePath = './' + item;
+        var filePath = project_path + item;
         delays += 100;
 
         console.log(filePath);
