@@ -2,6 +2,8 @@
 const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
+const create_file = require('./jsfunc/create_file');
+const append_to_file = require('./jsfunc/append_to_file');
 
 // const project_path = '.';
 const project_path = '../data/';
@@ -40,76 +42,12 @@ var output = project_path + cfg.output;
 var prefix = '# ';
 
 function prepareTemplate() {
-    createFile('', output);
-    appendToFile(header, output);
+    create_file('', output);
+    append_to_file(header, output);
 }
 
-
-function createFile(data, filename) {
-    let config = {
-        encoding: "utf8",
-        flag: "w",
-        mode: 0o666
-    };
-    try {
-        fs.writeFileSync(filename, data, config);
-    } catch (err) {
-        console.error(err);
-    }
-}
 
 var delays = 0;
-
-function appendToFile(data, filename) {
-    let config = {
-        encoding: "utf8",
-        flag: "a+",
-        mode: 0o666
-    };
-    try {
-        delays += 50;
-
-        // setTimeout(function () {
-        console.log(delays);
-        console.log(filename);
-        fs.writeFileSync(filename, data, config);
-        // }, delays);
-
-    } catch (err) {
-        console.error(err);
-    }
-}
-
-const {EOL} = require('os');
-
-function splitFile(filePath, prefix = '# ', callback) {
-
-    fs.readFile(filePath, "utf8", function (err, data) {
-
-        if (typeof (data) === "undefined") {
-            return null;
-        }
-        if (data.length < 5) {
-            return null;
-        }
-
-        var data_splitted = data.split(EOL + prefix);
-        data_splitted.forEach(function (item, index, array) {
-            // console.log('item:', item, index);
-            console.log("--------filePath:");
-            console.log(filePath);
-            // console.log("--------data_splitted:");
-
-            if (data_splitted[index].length > 2) {
-                var content = prefix + data_splitted[index] + "\n" + "<!-- " + filePath + ":" + index + "-->" + "\n";
-                callback(content);
-            }
-        });
-    });
-}
-
-/*
- */
 
 
 /**
@@ -132,10 +70,10 @@ function readSelectedFiles() {
         setTimeout(function () {
             console.log(delays);
 
-            splitFile(filePath, prefix, function (content) {
+            split_file(filePath, prefix, function (content) {
                 // console.log(content);
 
-                appendToFile(before + content + after, output);
+                append_to_file(before + content + after, output);
             });
 
         }, delays);
@@ -144,7 +82,7 @@ function readSelectedFiles() {
 
 
 function end() {
-    appendToFile(footer, output);
+    append_to_file(footer, output);
 }
 
 
