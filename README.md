@@ -38,9 +38,15 @@ Split content from MD, Merge to to one html
 
     node combine.js
 
+
+
+
+
+
 ---
 + [edit](https://github.com/webslides-pl/www/edit/main/README.md)
-
++ [webslides-pl/www: WebSlides Page](https://github.com/webslides-pl/www)
+ 
 ```
 https://github.com/webslides-pl/www.git
 ```

@@ -1,6 +1,7 @@
 .plesk.txt
 package-lock.json
 reveal.js/
+.idea
 # Logs
 logs
 *.log

@@ -3,7 +3,9 @@ const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
 
-const slide_config_path = './event/2021/4developers/';
+// const project_path = '.';
+const project_path = '../data';
+const slide_config_path = project_path + '/event/2021/4developers/';
 const config_filename = 'slides.json';
 var cfg = require(slide_config_path + config_filename);
 console.log(cfg);
@@ -68,9 +70,9 @@ function appendToFile(data, filename) {
         delays += 50;
 
         // setTimeout(function () {
-            console.log(delays);
-            console.log(filename);
-            fs.writeFileSync(filename, data, config);
+        console.log(delays);
+        console.log(filename);
+        fs.writeFileSync(filename, data, config);
         // }, delays);
 
     } catch (err) {
@@ -137,10 +139,7 @@ function readSelectedFiles() {
             });
 
         }, delays);
-
-
     });
-
 }
 
 

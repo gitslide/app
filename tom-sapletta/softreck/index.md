@@ -1,6 +1,0 @@
-# Softreck
-
-+ pl
-+ ru
-+ de
-
